@@ -1,0 +1,28 @@
+CRITICAL - 2025-03-10 00:00:07 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4976.
+ 1 APPPATH/Controllers/Admin.php(4976): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4976)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-10 00:00:07 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4976.
+ 1 APPPATH/Controllers/Admin.php(4976): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4976)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-10 00:00:07 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4976.
+ 1 APPPATH/Controllers/Admin.php(4976): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4976)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-10 00:00:07 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4976.
+ 1 APPPATH/Controllers/Admin.php(4976): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4976)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

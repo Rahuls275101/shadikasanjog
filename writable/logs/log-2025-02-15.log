@@ -1,0 +1,91 @@
+CRITICAL - 2025-02-15 06:28:03 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:05 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:05 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:05 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:09 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:09 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:09 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:12 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:12 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:12 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:14 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:14 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-15 06:28:15 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,235 @@
+CRITICAL - 2024-04-04 06:46:05 --> Invalid file: admin/head.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/head.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/head', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/head')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 06:47:41 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 06:47:44 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 06:47:45 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 06:47:45 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 06:47:46 --> Invalid file: admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH/Controllers/Admin.php(118): view('admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 07:21:06 --> mysqli_sql_exception: Column 'franchise_phone' cannot be null in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fr...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fr...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fr...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fr...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(232): App\Models\Commanmodel->insert_query_get_inserid('franchise', Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-04 07:21:06 --> Undefined variable $insert
+in APPPATH/Controllers/Admin.php on line 240.
+ 1 APPPATH/Controllers/Admin.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'APPPATH/Controllers/Admin.php', 240)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 07:21:21 --> mysqli_sql_exception: Column 'franchise_phone' cannot be null in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fr...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fr...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fr...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fr...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(232): App\Models\Commanmodel->insert_query_get_inserid('franchise', Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-04 07:21:21 --> Undefined variable $insert
+in APPPATH/Controllers/Admin.php on line 240.
+ 1 APPPATH/Controllers/Admin.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'APPPATH/Controllers/Admin.php', 240)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 07:21:26 --> mysqli_sql_exception: Column 'franchise_phone' cannot be null in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fr...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fr...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fr...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fr...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(232): App\Models\Commanmodel->insert_query_get_inserid('franchise', Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-04 07:21:26 --> Undefined variable $insert
+in APPPATH/Controllers/Admin.php on line 240.
+ 1 APPPATH/Controllers/Admin.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'APPPATH/Controllers/Admin.php', 240)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 07:21:33 --> mysqli_sql_exception: Column 'franchise_phone' cannot be null in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fr...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fr...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fr...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fr...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(63): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(232): App\Models\Commanmodel->insert_query_get_inserid('franchise', Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-04 07:37:06 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Franchisemodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(141): App\Models\Franchisemodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->franchiselist()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-04 07:37:06 --> Call to a member function getResult() on bool
+in APPPATH/Models/Franchisemodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(141): App\Models\Franchisemodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->franchiselist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 07:37:27 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Franchisemodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(141): App\Models\Franchisemodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->franchiselist()
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-04 07:37:27 --> Call to a member function getResult() on bool
+in APPPATH/Models/Franchisemodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(141): App\Models\Franchisemodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->franchiselist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 07:49:40 --> Invalid file: admin/edit_franchise.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_franchise.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_franchise', [], true)
+ 3 APPPATH/Controllers/Admin.php(336): view('admin/edit_franchise', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_franchise('2')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 07:49:48 --> Invalid file: admin/edit_franchise.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_franchise.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_franchise', [], true)
+ 3 APPPATH/Controllers/Admin.php(336): view('admin/edit_franchise', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_franchise('2')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 07:55:28 --> Undefined variable $company
+in APPPATH/Views/admin/edit_franchise.php on line 85.
+ 1 APPPATH/Views/admin/edit_franchise.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH/Views/admin/edit_franchise.php', 85)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_franchise.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_franchise', [], true)
+ 5 APPPATH/Controllers/Admin.php(336): view('admin/edit_franchise', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_franchise('2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 08:01:14 --> mysqli_sql_exception: Unknown column 'franchise_name' in 'field list' in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(69): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(442): App\Models\Commanmodel->update_query('admin', Array, Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->update_franchise_process('2')
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-04 08:02:36 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `franchi...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `franchi...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `franchi...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `franchi...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(69): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(442): App\Models\Commanmodel->update_query('franchise', Array, Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->update_franchise_process('2')
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-04 08:02:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/yogasagar/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `franchi...', 0)
+#1 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `franchi...')
+#2 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `franchi...')
+#3 /home2/aseelectricalco/public_html/yogasagar/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `franchi...', Array, false)
+#4 /home2/aseelectricalco/public_html/yogasagar/app/Models/Commanmodel.php(69): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/yogasagar/app/Controllers/Admin.php(442): App\Models\Commanmodel->update_query('franchise', Array, Array)
+#6 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(925): App\Controllers\Admin->update_franchise_process('2')
+#7 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/yogasagar/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/yogasagar/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,21 @@
+CRITICAL - 2026-07-06 03:34:03 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-07-06 03:34:04 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-07-06 20:33:29 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

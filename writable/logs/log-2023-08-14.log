@@ -1,0 +1,106 @@
+CRITICAL - 2023-08-14 01:40:09 --> Array to string conversion
+in APPPATH/Controllers/Admin.php on line 2139.
+ 1 APPPATH/Controllers/Admin.php(2139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Controllers/Admin.php', 2139)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 01:41:45 --> Undefined variable $ch
+in APPPATH/Controllers/Admin.php on line 2139.
+ 1 APPPATH/Controllers/Admin.php(2139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ch', 'APPPATH/Controllers/Admin.php', 2139)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 01:42:11 --> Undefined variable $pdfFile
+in APPPATH/Controllers/Admin.php on line 2142.
+ 1 APPPATH/Controllers/Admin.php(2142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdfFile', 'APPPATH/Controllers/Admin.php', 2142)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 04:29:32 --> Undefined variable $status_color
+in APPPATH/Controllers/Admin.php on line 2226.
+ 1 APPPATH/Controllers/Admin.php(2226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_color', 'APPPATH/Controllers/Admin.php', 2226)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 04:30:17 --> mysqli_sql_exception: Column 'consignee_nameatual_dispatch_date' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2232): App\Models\Commanmodel->insert_query_get_inserid('first_dispatch_...', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-14 04:39:52 --> Cannot redeclare App\Controllers\Admin::tender_create()
+in APPPATH/Controllers/Admin.php on line 2216.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-14 04:40:35 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/First_dispatchmodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2178): App\Models\First_dispatchmodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-14 04:40:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/First_dispatchmodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2178): App\Models\First_dispatchmodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-14 04:41:41 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/First_dispatchmodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2178): App\Models\First_dispatchmodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-14 04:41:41 --> Call to a member function getResult() on bool
+in APPPATH/Models/First_dispatchmodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2178): App\Models\First_dispatchmodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 04:47:29 --> Undefined variable $company
+in APPPATH/Views/admin/first_dispatch_status_edit.php on line 78.
+ 1 APPPATH/Views/admin/first_dispatch_status_edit.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH/Views/admin/first_dispatch_status_edit.php', 78)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/first_dispatch_status_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/first_dispatch_status_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(2299): view('admin/first_dispatch_status_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 04:48:23 --> Undefined property: stdClass::$company_id
+in APPPATH/Views/admin/first_dispatch_status_edit.php on line 80.
+ 1 APPPATH/Views/admin/first_dispatch_status_edit.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_id', 'APPPATH/Views/admin/first_dispatch_status_edit.php', 80)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/first_dispatch_status_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/first_dispatch_status_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(2306): view('admin/first_dispatch_status_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

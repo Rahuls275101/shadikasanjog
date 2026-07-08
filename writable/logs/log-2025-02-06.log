@@ -1,0 +1,369 @@
+CRITICAL - 2025-02-06 04:09:18 --> Undefined property: stdClass::$reviews_name
+in APPPATH/Controllers/Admin.php on line 5230.
+ 1 APPPATH/Controllers/Admin.php(5230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$reviews_name', 'APPPATH/Controllers/Admin.php', 5230)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->reviews_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:10:10 --> Undefined property: stdClass::$reviews_name
+in APPPATH/Controllers/Admin.php on line 5230.
+ 1 APPPATH/Controllers/Admin.php(5230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$reviews_name', 'APPPATH/Controllers/Admin.php', 5230)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->reviews_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:21:12 --> Undefined variable $status_color
+in APPPATH/Controllers/Admin.php on line 5269.
+ 1 APPPATH/Controllers/Admin.php(5269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_color', 'APPPATH/Controllers/Admin.php', 5269)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->reviews_update()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:21:21 --> Undefined variable $status_color
+in APPPATH/Controllers/Admin.php on line 5269.
+ 1 APPPATH/Controllers/Admin.php(5269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_color', 'APPPATH/Controllers/Admin.php', 5269)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->reviews_update()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:26:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:26:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:26:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:26:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:27:08 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:27:08 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:27:08 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:27:08 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 04:41:52 --> mysqli_sql_exception: Unknown column 'transactions_id' in 'order clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(1126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(5349): App\Models\Commanmodel->getDataFromTable('reviews', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->transactions_list()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-06 04:41:52 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 1126.
+ 1 APPPATH/Controllers/Admin.php(5349): App\Models\Commanmodel->getDataFromTable('reviews', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->transactions_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 04:42:10 --> mysqli_sql_exception: Unknown column 'transactions_id' in 'order clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(1126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(5349): App\Models\Commanmodel->getDataFromTable('reviews', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->transactions_list()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-06 04:42:10 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 1126.
+ 1 APPPATH/Controllers/Admin.php(5349): App\Models\Commanmodel->getDataFromTable('reviews', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->transactions_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 04:47:48 --> Undefined property: stdClass::$booking_product_sub_total
+in APPPATH/Controllers/Admin.php on line 5374.
+ 1 APPPATH/Controllers/Admin.php(5374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_product_sub_total', 'APPPATH/Controllers/Admin.php', 5374)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->transactions_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:34 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:34 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:39 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:39 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:45 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:38:45 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 804.
+ 1 APPPATH/Controllers/Home.php(804): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_page_name" on null', 'APPPATH/Controllers/Home.php', 804)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:39:49 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(743): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:39:49 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(743): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:39:49 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(743): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 05:39:49 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(743): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 06:52:41 --> mysqli_sql_exception: Table 'aseelect_newecom.shipcharge' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(1126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(5482): App\Models\Commanmodel->getDataFromTable('shipcharge', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->shipcharge_list()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-06 06:52:41 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 1126.
+ 1 APPPATH/Controllers/Admin.php(5482): App\Models\Commanmodel->getDataFromTable('shipcharge', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->shipcharge_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 06:54:47 --> mysqli_sql_exception: Table 'aseelect_newecom.shipcharge' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(1126): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(5482): App\Models\Commanmodel->getDataFromTable('shipcharge', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->shipcharge_list()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-06 06:54:47 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 1126.
+ 1 APPPATH/Controllers/Admin.php(5482): App\Models\Commanmodel->getDataFromTable('shipcharge', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->shipcharge_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 07:04:51 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 07:04:51 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 07:04:51 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 07:04:51 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 07:05:02 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Home.php on line 731.
+ 1 APPPATH/Controllers/Home.php(731): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Home.php', 731)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:03:34 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:03:34 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:03:34 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:03:34 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:05:14 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:05:14 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:13:32 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:13:32 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 276)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:14:42 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:14:42 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 23:15:42 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'products', 'small', 'product-1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

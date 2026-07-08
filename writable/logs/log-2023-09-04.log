@@ -1,0 +1,16 @@
+CRITICAL - 2023-09-04 05:10:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 72.
+ 1 APPPATH/Models/Tendermodel.php(96): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2816): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 05:10:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 72.
+ 1 APPPATH/Models/Tendermodel.php(96): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2816): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

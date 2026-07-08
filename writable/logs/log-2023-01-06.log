@@ -1,0 +1,24 @@
+CRITICAL - 2023-01-06 23:01:05 --> Call to a member function setFlashdata() on null
+in APPPATH/Filters/AuthGuard.php on line 14.
+ 1 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:10:20 --> Call to a member function setFlashdata() on null
+in APPPATH/Filters/AuthGuard.php on line 14.
+ 1 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:23:35 --> Call to a member function userdata() on null
+in APPPATH/Controllers/Admin.php on line 398.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:51:42 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

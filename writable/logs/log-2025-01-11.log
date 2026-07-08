@@ -1,0 +1,749 @@
+CRITICAL - 2025-01-11 01:02:14 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:14 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:15 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:15 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:15 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:15 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:02:15 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:04 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:04 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:04 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:05 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:05 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:05 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:06:05 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:09:19 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:10:50 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:12:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:23 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:24 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:45 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:45 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:46 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:46 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:13:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:14:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:35 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:35 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:36 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:36 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:36 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:36 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:15:36 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:20:59 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:20:59 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:20:59 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:21:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:21:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:21:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:21:00 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:23:22 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 01:27:47 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:46 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('index.html')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:52 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('index.html')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-11 02:42:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

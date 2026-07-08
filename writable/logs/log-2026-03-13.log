@@ -1,0 +1,739 @@
+CRITICAL - 2026-03-13 04:49:21 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:21 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:21 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:21 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:22 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:22 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:22 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:49:22 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:05 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:05 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:05 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:05 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:07 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:07 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:07 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:51:07 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:32 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:32 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:32 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:32 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:33 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:33 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:33 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 04:55:33 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:02:51 --> Call to undefined function set_value()
+in APPPATH/Views/admin/faq.php on line 110.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/faq', [], true)
+ 4 APPPATH/Controllers/Admin.php(3912): view('admin/faq', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:05:31 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH/Views/admin/faq.php on line 341.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/faq', [], true)
+ 4 APPPATH/Controllers/Admin.php(3912): view('admin/faq', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:05:35 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH/Views/admin/faq.php on line 341.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/faq', [], true)
+ 4 APPPATH/Controllers/Admin.php(3912): view('admin/faq', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:07:32 --> Attempt to read property "faq_status" on string
+in APPPATH/Views/admin/faq.php on line 370.
+ 1 APPPATH/Views/admin/faq.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_status" on string', 'APPPATH/Views/admin/faq.php', 370)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3912): view('admin/faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:37 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:37 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:37 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:37 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:38 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:38 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:38 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:09:38 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(3993): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:11:26 --> Undefined variable $profession_name
+in APPPATH/Views/admin/profile_view.php on line 471.
+ 1 APPPATH/Views/admin/profile_view.php(471): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession_name', 'APPPATH/Views/admin/profile_view.php', 471)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/profile_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/profile_view', [], true)
+ 5 APPPATH/Controllers/Admin.php(5087): view('admin/profile_view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:12:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:44 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:44 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:44 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:44 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 05:14:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 06:28:50 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 06:28:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 06:28:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 06:28:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 06:28:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:10 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:10 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:10 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:10 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:25 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:25 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:25 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:25 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:39:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:43:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:43:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:43:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:43:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:45:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:45:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:45:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:45:41 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:49:34 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:49:34 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:49:34 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:49:34 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:50:01 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:50:01 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:50:01 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-03-13 11:50:01 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 5047)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

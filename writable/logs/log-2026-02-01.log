@@ -1,0 +1,68 @@
+CRITICAL - 2026-02-01 22:55:13 --> Undefined variable $religions
+in APPPATH/Controllers/Home.php on line 117.
+ 1 APPPATH/Controllers/Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $religions', 'APPPATH/Controllers/Home.php', 117)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:40:48 --> Undefined variable $profession_categories
+in APPPATH/Views/frontend/profile.php on line 202.
+ 1 APPPATH/Views/frontend/profile.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession_categories', 'APPPATH/Views/frontend/profile.php', 202)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH/Controllers/Home.php(130): view('frontend/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:40:56 --> Undefined variable $profession_categories
+in APPPATH/Views/frontend/profile.php on line 202.
+ 1 APPPATH/Views/frontend/profile.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession_categories', 'APPPATH/Views/frontend/profile.php', 202)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH/Controllers/Home.php(131): view('frontend/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:40:59 --> Undefined variable $profession_categories
+in APPPATH/Views/frontend/profile.php on line 202.
+ 1 APPPATH/Views/frontend/profile.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profession_categories', 'APPPATH/Views/frontend/profile.php', 202)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH/Controllers/Home.php(131): view('frontend/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:48:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:48:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:48:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 23:48:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

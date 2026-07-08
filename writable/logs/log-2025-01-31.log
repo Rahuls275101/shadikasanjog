@@ -1,0 +1,56 @@
+CRITICAL - 2025-01-31 01:28:57 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:28:57 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:01 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:01 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:12 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:12 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:19 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 01:29:19 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

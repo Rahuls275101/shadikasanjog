@@ -1,0 +1,177 @@
+ERROR - 2026-02-15 03:03:19 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ph...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ph...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ph...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ph...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(981): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->updateProfilePhoto()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2026-02-15 03:43:55 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:43:55 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:43:55 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:43:55 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:46:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:46:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:46:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 03:46:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:26 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:27 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:27 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:27 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 22:45:45 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4956.
+ 1 APPPATH/Controllers/Admin.php(4956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 23:14:34 --> Invalid file: razorpay_checkout_page.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay_checkout_page.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('razorpay_checkout_page', [], true)
+ 3 APPPATH/Controllers/PaymentController.php(373): view('razorpay_checkout_page', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->plan('3')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 23:41:22 --> Undefined variable $data
+in APPPATH/Views/razorpay_checkout_page.php on line 34.
+ 1 APPPATH/Views/razorpay_checkout_page.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH/Views/razorpay_checkout_page.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/razorpay_checkout_page.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('razorpay_checkout_page', [], true)
+ 5 APPPATH/Controllers/PaymentController.php(339): view('razorpay_checkout_page', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->plan('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 23:42:55 --> Undefined variable $amount
+in APPPATH/Views/razorpay_checkout_page.php on line 9.
+ 1 APPPATH/Views/razorpay_checkout_page.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amount', 'APPPATH/Views/razorpay_checkout_page.php', 9)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/razorpay_checkout_page.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('razorpay_checkout_page', [], true)
+ 5 APPPATH/Controllers/PaymentController.php(339): view('razorpay_checkout_page', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->plan('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 23:44:32 --> Undefined variable $key_id
+in APPPATH/Views/razorpay_checkout_page.php on line 15.
+ 1 APPPATH/Views/razorpay_checkout_page.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key_id', 'APPPATH/Views/razorpay_checkout_page.php', 15)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/razorpay_checkout_page.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('razorpay_checkout_page', [], true)
+ 5 APPPATH/Controllers/PaymentController.php(340): view('razorpay_checkout_page', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->plan('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-15 23:45:38 --> Undefined variable $order_id
+in APPPATH/Views/razorpay_checkout_page.php on line 20.
+ 1 APPPATH/Views/razorpay_checkout_page.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'APPPATH/Views/razorpay_checkout_page.php', 20)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/razorpay_checkout_page.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('razorpay_checkout_page', [], true)
+ 5 APPPATH/Controllers/PaymentController.php(341): view('razorpay_checkout_page', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\PaymentController->plan('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

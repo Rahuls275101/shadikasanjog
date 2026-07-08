@@ -1,0 +1,104 @@
+ERROR - 2024-06-17 00:09:26 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 00:09:26 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 00:10:40 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 00:10:40 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 00:12:55 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 00:12:55 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'test')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 00:25:17 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 00:40:20 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification-1718601907')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 13:49:19 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 13:49:23 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 13:52:55 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification-1718650110')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 14:34:42 --> Invalid file: admin/create_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create_user.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_user', [], true)
+ 3 APPPATH/Controllers/Admin.php(1400): view('admin/create_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

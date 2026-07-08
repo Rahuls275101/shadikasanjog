@@ -1,0 +1,53 @@
+CRITICAL - 2025-02-04 23:55:46 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4799.
+ 1 APPPATH/Controllers/Admin.php(4799): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4799)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:55:46 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4799.
+ 1 APPPATH/Controllers/Admin.php(4799): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4799)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:55:46 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4799.
+ 1 APPPATH/Controllers/Admin.php(4799): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4799)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:55:46 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 4799.
+ 1 APPPATH/Controllers/Admin.php(4799): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 4799)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:58:15 --> Undefined variable $table_column
+in APPPATH/Views/admin/index.php on line 182.
+ 1 APPPATH/Views/admin/index.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_column', 'APPPATH/Views/admin/index.php', 182)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH/Controllers/Admin.php(322): view('admin/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:59:54 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 4847.
+ 1 APPPATH/Controllers/Admin.php(4847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 4847)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 23:59:59 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 4847.
+ 1 APPPATH/Controllers/Admin.php(4847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 4847)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

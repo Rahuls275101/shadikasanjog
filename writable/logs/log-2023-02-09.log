@@ -1,0 +1,186 @@
+ERROR - 2023-02-09 00:01:21 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1559): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 00:02:18 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1559): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 00:03:48 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1559): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 00:04:30 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1559): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:06:03 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:06:45 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:07:32 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query_get_inserid('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:07:58 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:08:19 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1559): App\Models\Commanmodel->insert_query('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:09:27 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-09 11:09:30 --> mysqli_sql_exception: Unknown column 'employee_name' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `at...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1560): App\Models\Commanmodel->insert_query('attendance', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->attendance_check_in()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 04:23:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home2/aseelectricalco/public_html/warsi/app/Models/Attendancemodel.php on line 75
+in SYSTEMPATH/Database/BaseBuilder.php on line 1408.
+ 1 APPPATH/Models/Attendancemodel.php(75): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH/Models/Attendancemodel.php(91): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1648): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:23:55 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home2/aseelectricalco/public_html/warsi/app/Models/Attendancemodel.php on line 75
+in SYSTEMPATH/Database/BaseBuilder.php on line 1408.
+ 1 APPPATH/Models/Attendancemodel.php(75): CodeIgniter\Database\BaseBuilder->orderBy(null, 'desc')
+ 2 APPPATH/Models/Attendancemodel.php(91): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1648): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:23:59 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /home2/aseelectricalco/public_html/warsi/app/Models/Attendancemodel.php on line 75
+in SYSTEMPATH/Database/BaseBuilder.php on line 1408.
+ 1 APPPATH/Models/Attendancemodel.php(75): CodeIgniter\Database\BaseBuilder->orderBy(null, 'asc')
+ 2 APPPATH/Models/Attendancemodel.php(91): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1648): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:26:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Employeemodel.php on line 64.
+ 1 APPPATH/Models/Employeemodel.php(91): App\Models\Employeemodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(1321): App\Models\Employeemodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:26:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Employeemodel.php on line 64.
+ 1 APPPATH/Models/Employeemodel.php(91): App\Models\Employeemodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(1321): App\Models\Employeemodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

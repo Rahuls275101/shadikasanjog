@@ -1,0 +1,7 @@
+CRITICAL - 2025-03-26 01:17:23 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

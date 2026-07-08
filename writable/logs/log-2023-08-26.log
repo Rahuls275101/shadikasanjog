@@ -1,0 +1,319 @@
+CRITICAL - 2023-08-26 05:40:56 --> Undefined variable $id
+in APPPATH/Views/admin/purchase_order_create.php on line 55.
+ 1 APPPATH/Views/admin/purchase_order_create.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH/Views/admin/purchase_order_create.php', 55)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_create.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_create', [], true)
+ 5 APPPATH/Controllers/Admin.php(3807): view('admin/purchase_order_create', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_create()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 05:41:18 --> Undefined variable $company
+in APPPATH/Views/admin/purchase_order_create.php on line 68.
+ 1 APPPATH/Views/admin/purchase_order_create.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH/Views/admin/purchase_order_create.php', 68)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_create.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_create', [], true)
+ 5 APPPATH/Controllers/Admin.php(3807): view('admin/purchase_order_create', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_create()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 05:41:49 --> Undefined property: stdClass::$vendor_creation_id
+in APPPATH/Views/admin/purchase_order_create.php on line 70.
+ 1 APPPATH/Views/admin/purchase_order_create.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$vendor_creation_id', 'APPPATH/Views/admin/purchase_order_create.php', 70)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_create.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_create', [], true)
+ 5 APPPATH/Controllers/Admin.php(3811): view('admin/purchase_order_create', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_create()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:50:14 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3956.
+ 1 APPPATH/Controllers/Admin.php(3956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:50:40 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3956.
+ 1 APPPATH/Controllers/Admin.php(3956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:51:06 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3956.
+ 1 APPPATH/Controllers/Admin.php(3956): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3956)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:51:53 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3957.
+ 1 APPPATH/Controllers/Admin.php(3957): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3957)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:51:55 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3957.
+ 1 APPPATH/Controllers/Admin.php(3957): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3957)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:53:31 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3957.
+ 1 APPPATH/Controllers/Admin.php(3957): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3957)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 06:53:55 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 3957.
+ 1 APPPATH/Controllers/Admin.php(3957): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 3957)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->fetch_company_address()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-26 07:31:12 --> mysqli_sql_exception: Column 'vendor' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3844): App\Models\Commanmodel->insert_query_get_inserid('purchase_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:31:12 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:31:12 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:31:12 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:32:10 --> mysqli_sql_exception: Column 'vendor' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3844): App\Models\Commanmodel->insert_query_get_inserid('purchase_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:32:10 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:32:10 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:32:10 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3864): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:33:26 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3867): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:33:26 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3867): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:33:26 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3867): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:34:31 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3870): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:34:31 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3870): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-26 07:34:31 --> mysqli_sql_exception: Unknown column 'vendor' in 'field list' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(3870): App\Models\Commanmodel->insert_query_get_inserid('item_order', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-26 07:55:07 --> Undefined property: stdClass::$grand_amount
+in APPPATH/Views/admin/purchase_order_edit.php on line 170.
+ 1 APPPATH/Views/admin/purchase_order_edit.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$grand_amount', 'APPPATH/Views/admin/purchase_order_edit.php', 170)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(3906): view('admin/purchase_order_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 07:56:22 --> Undefined property: stdClass::$company_address
+in APPPATH/Views/admin/purchase_order_edit.php on line 192.
+ 1 APPPATH/Views/admin/purchase_order_edit.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_address', 'APPPATH/Views/admin/purchase_order_edit.php', 192)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(3906): view('admin/purchase_order_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 08:01:12 --> Undefined variable $commanmodel
+in APPPATH/Views/admin/purchase_order_edit.php on line 102.
+ 1 APPPATH/Views/admin/purchase_order_edit.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Views/admin/purchase_order_edit.php', 102)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(3906): view('admin/purchase_order_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 08:02:08 --> Undefined property: stdClass::$purchase_id
+in APPPATH/Views/admin/purchase_order_edit.php on line 107.
+ 1 APPPATH/Views/admin/purchase_order_edit.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$purchase_id', 'APPPATH/Views/admin/purchase_order_edit.php', 107)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(3906): view('admin/purchase_order_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 08:02:34 --> Undefined property: stdClass::$purchase_id
+in APPPATH/Views/admin/purchase_order_edit.php on line 107.
+ 1 APPPATH/Views/admin/purchase_order_edit.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$purchase_id', 'APPPATH/Views/admin/purchase_order_edit.php', 107)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/purchase_order_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/purchase_order_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(3906): view('admin/purchase_order_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->purchase_order_edit('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

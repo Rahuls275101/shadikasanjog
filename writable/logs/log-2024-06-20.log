@@ -1,0 +1,22 @@
+CRITICAL - 2024-06-20 07:57:09 --> Undefined property: stdClass::$pro_group_title
+in APPPATH/Views/frontend/course_details.php on line 59.
+ 1 APPPATH/Views/frontend/course_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pro_group_title', 'APPPATH/Views/frontend/course_details.php', 59)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/course_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/course_details', [], true)
+ 5 APPPATH/Controllers/Home.php(202): view('frontend/course_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('ai-ml-with-python-and-deep-leaning')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-20 07:57:17 --> Undefined property: stdClass::$pro_group_title
+in APPPATH/Views/frontend/course_details.php on line 59.
+ 1 APPPATH/Views/frontend/course_details.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pro_group_title', 'APPPATH/Views/frontend/course_details.php', 59)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/course_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/course_details', [], true)
+ 5 APPPATH/Controllers/Home.php(202): view('frontend/course_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('ai-ml-with-python-and-deep-leaning')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

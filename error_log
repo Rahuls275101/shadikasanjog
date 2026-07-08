@@ -1,0 +1,85 @@
+[03-Oct-2025 04:05:01 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home2/aseelectricalco/public_html/arrdev-pools/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home2/aseelectricalco/public_html/arrdev-pools/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home2/aseelectricalco/public_html/arrdev-pools/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home2/aseelectricalco/public_html/arrdev-pools/system/Debug/Exceptions.php on line 349
+[26-Oct-2025 23:58:33 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Dashboard::update_profile() in /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php on line 549
+[27-Oct-2025 00:01:04 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Dashboard::update_profile() in /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php on line 549
+[27-Oct-2025 06:44:41 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[28-Oct-2025 01:52:24 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[28-Oct-2025 01:52:57 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[28-Oct-2025 01:53:31 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[28-Oct-2025 01:55:20 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[28-Oct-2025 01:55:49 America/Chicago] PHP Fatal error:  Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php:349
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(349): abs('BAD_REQUEST_ERR...')
+#1 /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php(108): CodeIgniter\Debug\Exceptions->determineCodes(Object(Razorpay\Api\Errors\BadRequestError))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Razorpay\Api\Errors\BadRequestError))
+#3 {main}
+  thrown in /home3/snindustries/public_html/shadi/system/Debug/Exceptions.php on line 349
+[29-Oct-2025 00:19:20 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::report_abuse() in /home3/snindustries/public_html/shadi/app/Controllers/Home.php on line 173
+[02-Feb-2026 05:05:15 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\PaymentController::generateBookingNumber() in /home3/snindustries/public_html/shadi/app/Controllers/PaymentController.php on line 1039
+[18-Feb-2026 01:21:51 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Dashboard::delete_account() in /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php on line 89
+[06-Apr-2026 02:25:27 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[06-Apr-2026 02:28:27 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[06-Apr-2026 02:33:05 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[06-Apr-2026 02:36:00 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[06-Apr-2026 02:36:49 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[23-Apr-2026 01:37:44 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[23-Apr-2026 09:18:18 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:09:56 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:10:20 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:10:30 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:28:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:29:01 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[25-May-2026 17:37:45 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 11:48:26 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 11:52:29 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 12:01:55 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 12:02:14 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 12:20:15 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[16-Jun-2026 12:20:58 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[17-Jun-2026 16:39:12 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[17-Jun-2026 16:39:24 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[17-Jun-2026 16:40:45 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:40:54 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:41:08 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:43:17 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:43:26 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:43:27 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[17-Jun-2026 16:43:33 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Result.php on line 148
+[17-Jun-2026 16:44:42 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:49:05 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292
+[17-Jun-2026 16:49:53 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php on line 292

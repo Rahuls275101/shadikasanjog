@@ -1,0 +1,23 @@
+CRITICAL - 2026-07-05 09:51:56 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-07-05 11:48:20 --> Invalid file: frontend/checkout.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(1702): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-07-05 15:54:39 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

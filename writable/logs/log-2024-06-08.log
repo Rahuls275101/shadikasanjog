@@ -1,0 +1,18 @@
+CRITICAL - 2024-06-08 03:58:30 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Home.php on line 100.
+ 1 APPPATH/Controllers/Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Home.php', 100)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses('business-leadership')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-08 04:36:09 --> Undefined property: stdClass::$youtube
+in APPPATH/Views/frontend/header.php on line 115.
+ 1 APPPATH/Views/frontend/header.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$youtube', 'APPPATH/Views/frontend/header.php', 115)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(93): view('frontend/header', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->contact_us()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,358 @@
+CRITICAL - 2025-01-26 23:07:31 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:07:31 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:12:03 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:12:03 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:12:03 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:12:03 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:12:03 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'blog', 'author.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:19 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:19 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:23 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:23 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:23 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:23 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'blog', 'author.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:23 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:20:38 --> Attempt to read property "order_book_pay_type" on null
+in APPPATH/Controllers/Admin.php on line 4879.
+ 1 APPPATH/Controllers/Admin.php(4879): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "order_book_pay_type" on null', 'APPPATH/Controllers/Admin.php', 4879)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:23:03 --> Attempt to read property "order_book_pay_type" on null
+in APPPATH/Controllers/Admin.php on line 4879.
+ 1 APPPATH/Controllers/Admin.php(4879): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "order_book_pay_type" on null', 'APPPATH/Controllers/Admin.php', 4879)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:24:12 --> Attempt to read property "order_book_user_name" on null
+in APPPATH/Views/admin/order_details.php on line 25.
+ 1 APPPATH/Views/admin/order_details.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "order_book_user_name" on null', 'APPPATH/Views/admin/order_details.php', 25)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/order_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH/Controllers/Admin.php(4781): view('admin/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('ORDER1737955234E1Y6OT')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:26:28 --> Attempt to read property "booking_product_order_book_id" on array
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on array', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('ORDER1737955234E1Y6OT')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'products', 'pro-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'products', 'pro-2.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'products', 'pro-4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:27:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'products', 'pro-3.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:32:41 --> Undefined property: stdClass::$order_shipping_user_name
+in APPPATH/Views/admin/order_details.php on line 102.
+ 1 APPPATH/Views/admin/order_details.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$order_shipping_user_name', 'APPPATH/Views/admin/order_details.php', 102)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/order_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH/Controllers/Admin.php(4781): view('admin/order_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('ORDER1737955234E1Y6OT')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:33:06 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:33:06 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:33:06 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:33:06 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:34:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:34:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:34:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:34:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:36:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:36:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:36:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:36:21 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:08 --> Attempt to read property "booking_product_order_book_id" on null
+in APPPATH/Controllers/Admin.php on line 4771.
+ 1 APPPATH/Controllers/Admin.php(4771): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_order_book_id" on null', 'APPPATH/Controllers/Admin.php', 4771)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:50 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:50 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 183.
+ 1 APPPATH/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-3.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'products', 'product-4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-26 23:38:52 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 239.
+ 1 APPPATH/Controllers/Home.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 239)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('FCPATH/assets', 'images', 'blog', 'author.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

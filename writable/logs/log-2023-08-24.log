@@ -1,0 +1,186 @@
+ERROR - 2023-08-24 02:21:49 --> mysqli_sql_exception: Column 'department' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1555): App\Models\Commanmodel->insert_query_get_inserid('employee', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->employee_create_process()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-24 02:24:20 --> mysqli_sql_exception: Column 'department' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1555): App\Models\Commanmodel->insert_query_get_inserid('employee', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->employee_create_process()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-24 02:27:20 --> mysqli_sql_exception: Column 'department' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1555): App\Models\Commanmodel->insert_query_get_inserid('employee', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->employee_create_process()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-24 02:30:28 --> mysqli_sql_exception: Column 'department' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1555): App\Models\Commanmodel->insert_query_get_inserid('employee', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->employee_create_process()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-24 02:31:24 --> mysqli_sql_exception: Column 'department' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `em...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1555): App\Models\Commanmodel->insert_query_get_inserid('employee', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->employee_create_process()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-24 13:02:48 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:07 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:14 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:25 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:30 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:36 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:43 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:03:51 --> Attempt to read property "position_name" on null
+in APPPATH/Controllers/Admin.php on line 1456.
+ 1 APPPATH/Controllers/Admin.php(1456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "position_name" on null', 'APPPATH/Controllers/Admin.php', 1456)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_employee_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 02:38:09 --> Attempt to read property "category" on null
+in APPPATH/Controllers/Admin.php on line 61.
+ 1 APPPATH/Controllers/Admin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH/Controllers/Admin.php', 61)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 02:38:40 --> Attempt to read property "category" on null
+in APPPATH/Controllers/Admin.php on line 61.
+ 1 APPPATH/Controllers/Admin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH/Controllers/Admin.php', 61)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:26:47 --> Undefined property: stdClass::$category_add
+in APPPATH/Filters/AuthGuard.php on line 35.
+ 1 APPPATH/Filters/AuthGuard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_add', 'APPPATH/Filters/AuthGuard.php', 35)
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/create-user', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:50:54 --> Attempt to read property "company" on null
+in APPPATH/Views/admin/edit_user.php on line 140.
+ 1 APPPATH/Views/admin/edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "company" on null', 'APPPATH/Views/admin/edit_user.php', 140)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(328): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:52:48 --> Attempt to read property "company" on null
+in APPPATH/Views/admin/edit_user.php on line 140.
+ 1 APPPATH/Views/admin/edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "company" on null', 'APPPATH/Views/admin/edit_user.php', 140)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(328): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:54:33 --> Undefined property: stdClass::$tender_approval
+in APPPATH/Views/admin/edit_user.php on line 176.
+ 1 APPPATH/Views/admin/edit_user.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tender_approval', 'APPPATH/Views/admin/edit_user.php', 176)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(328): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:57:25 --> Attempt to read property "company" on null
+in APPPATH/Views/admin/edit_user.php on line 162.
+ 1 APPPATH/Views/admin/edit_user.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "company" on null', 'APPPATH/Views/admin/edit_user.php', 162)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(328): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

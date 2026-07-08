@@ -1,0 +1,284 @@
+CRITICAL - 2025-06-19 00:13:36 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:15:36 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:25:03 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:28:33 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:28:57 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-19 00:35:36 --> mysqli_sql_exception: Column 'rating' cannot be null in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(314): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Ajex.php(813): App\Models\Commanmodel->insert_query('reviews', Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Ajex->review_submit()
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-19 00:35:46 --> mysqli_sql_exception: Column 'rating' cannot be null in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(314): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Ajex.php(813): App\Models\Commanmodel->insert_query('reviews', Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Ajex->review_submit()
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-19 00:54:31 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:54:34 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:54:40 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:54:42 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:55:36 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:55:41 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:56:01 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:56:40 --> Undefined variable $cofirmrray
+in APPPATH/Controllers/Ajex.php on line 906.
+ 1 APPPATH/Controllers/Ajex.php(906): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cofirmrray', 'APPPATH/Controllers/Ajex.php', 906)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->ordercancel_submit()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:56:44 --> Undefined variable $cofirmrray
+in APPPATH/Controllers/Ajex.php on line 906.
+ 1 APPPATH/Controllers/Ajex.php(906): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cofirmrray', 'APPPATH/Controllers/Ajex.php', 906)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->ordercancel_submit()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:56:51 --> Undefined variable $cofirmrray
+in APPPATH/Controllers/Ajex.php on line 906.
+ 1 APPPATH/Controllers/Ajex.php(906): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cofirmrray', 'APPPATH/Controllers/Ajex.php', 906)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->ordercancel_submit()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:57:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 00:59:42 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:00:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:01:32 --> Undefined property: stdClass::$booking_product_status
+in APPPATH/Views/frontend/dashboard/order_details.php on line 78.
+ 1 APPPATH/Views/frontend/dashboard/order_details.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$booking_product_status', 'APPPATH/Views/frontend/dashboard/order_details.php', 78)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/order_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/order_details', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(568): view('frontend/dashboard/order_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('ORDER1750308075REI5GN')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:01:59 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:04:11 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:04:48 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('img', 'bg', '4.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:08:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 5084.
+ 1 APPPATH/Controllers/Admin.php(5084): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 5084)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:08:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 5084.
+ 1 APPPATH/Controllers/Admin.php(5084): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 5084)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:08:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 5084.
+ 1 APPPATH/Controllers/Admin.php(5084): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 5084)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:08:28 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Admin.php on line 5084.
+ 1 APPPATH/Controllers/Admin.php(5084): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Admin.php', 5084)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_details('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-19 01:45:08 --> Class "App\Controllers\Time" not found
+in APPPATH/Controllers/Home.php on line 905.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->sendResetLink()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-19 01:45:49 --> mysqli_sql_exception: Unknown column 'reset_token' in 'field list' in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(326): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Home.php(915): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Home->sendResetLink()
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-19 01:46:09 --> mysqli_sql_exception: Unknown column 'reset_token' in 'where clause' in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(788): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Home.php(951): App\Models\Commanmodel->get_single_query('user_account', Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Home->resetPassword('bf0287974c49d85...')
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-19 01:46:09 --> Call to a member function getRow() on bool
+in APPPATH/Models/Commanmodel.php on line 789.
+ 1 APPPATH/Controllers/Home.php(951): App\Models\Commanmodel->get_single_query('user_account', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->resetPassword('bf0287974c49d85a27be4d22456bfb081edca982aeef7f3f8847c73f107871414b72a218756229a4a8c8e80879a80bb73982')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-19 01:46:15 --> mysqli_sql_exception: Unknown column 'reset_token' in 'where clause' in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(788): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Home.php(951): App\Models\Commanmodel->get_single_query('user_account', Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Home->resetPassword('bf0287974c49d85...')
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-19 01:46:15 --> Call to a member function getRow() on bool
+in APPPATH/Models/Commanmodel.php on line 789.
+ 1 APPPATH/Controllers/Home.php(951): App\Models\Commanmodel->get_single_query('user_account', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->resetPassword('bf0287974c49d85a27be4d22456bfb081edca982aeef7f3f8847c73f107871414b72a218756229a4a8c8e80879a80bb73982')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-19 01:47:40 --> mysqli_sql_exception: Unknown column 'reset_token_expiry' in 'field list' in /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/looksradiance/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home2/aseelectricalco/public_html/looksradiance/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home2/aseelectricalco/public_html/looksradiance/app/Models/Commanmodel.php(326): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/looksradiance/app/Controllers/Home.php(915): App\Models\Commanmodel->update_query('user_account', Array, Array)
+#6 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(925): App\Controllers\Home->sendResetLink()
+#7 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/aseelectricalco/public_html/looksradiance/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/looksradiance/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

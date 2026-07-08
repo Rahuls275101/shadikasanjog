@@ -1,0 +1,101 @@
+CRITICAL - 2025-09-01 00:09:06 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 491.
+ 1 APPPATH/Controllers/Home.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 491)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('css', 'templ-det-gallery.css')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:10:37 --> Too few arguments to function App\Controllers\Admin::faq(), 0 passed in /home2/aseelectricalco/public_html/finemetalcards/system/CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH/Controllers/Admin.php on line 4235.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->faq()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:24:59 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:24:59 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:24:59 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:24:59 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:25:55 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:25:55 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:25:55 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-01 00:25:55 --> Attempt to read property "faq_id" on null
+in APPPATH/Views/admin/edit-faq.php on line 45.
+ 1 APPPATH/Views/admin/edit-faq.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "faq_id" on null', 'APPPATH/Views/admin/edit-faq.php', 45)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-faq.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-faq', [], true)
+ 5 APPPATH/Controllers/Admin.php(4324): view('admin/edit-faq', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_faq('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

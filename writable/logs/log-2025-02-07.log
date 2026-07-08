@@ -1,0 +1,111 @@
+CRITICAL - 2025-02-07 00:54:15 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 00:54:16 --> Attempt to read property "collections_id" on null
+in APPPATH/Controllers/Home.php on line 214.
+ 1 APPPATH/Controllers/Home.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "collections_id" on null', 'APPPATH/Controllers/Home.php', 214)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 00:55:50 --> Undefined variable $shippingTotal
+in APPPATH/Controllers/Ajex.php on line 191.
+ 1 APPPATH/Controllers/Ajex.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shippingTotal', 'APPPATH/Controllers/Ajex.php', 191)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 00:56:22 --> Undefined variable $shippingTotal
+in APPPATH/Controllers/Ajex.php on line 191.
+ 1 APPPATH/Controllers/Ajex.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shippingTotal', 'APPPATH/Controllers/Ajex.php', 191)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 00:56:29 --> Undefined variable $shippingTotal
+in APPPATH/Controllers/Ajex.php on line 191.
+ 1 APPPATH/Controllers/Ajex.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shippingTotal', 'APPPATH/Controllers/Ajex.php', 191)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 01:17:04 --> Attempt to read property "shipcharge" on array
+in APPPATH/Controllers/Ajex.php on line 101.
+ 1 APPPATH/Controllers/Ajex.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shipcharge" on array', 'APPPATH/Controllers/Ajex.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 01:17:41 --> Attempt to read property "shipcharge" on array
+in APPPATH/Controllers/Ajex.php on line 101.
+ 1 APPPATH/Controllers/Ajex.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shipcharge" on array', 'APPPATH/Controllers/Ajex.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 01:18:34 --> Attempt to read property "shipcharge" on array
+in APPPATH/Controllers/Ajex.php on line 101.
+ 1 APPPATH/Controllers/Ajex.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shipcharge" on array', 'APPPATH/Controllers/Ajex.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 01:20:51 --> Attempt to read property "shipcharge" on array
+in APPPATH/Controllers/Ajex.php on line 102.
+ 1 APPPATH/Controllers/Ajex.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shipcharge" on array', 'APPPATH/Controllers/Ajex.php', 102)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 02:45:06 --> Undefined constant "App\Controllers\done"
+in APPPATH/Controllers/Ajex.php on line 347.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->apply_pin_code()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 02:50:20 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 03:06:14 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 03:08:36 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 03:08:50 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('FCPATH/assets', 'js', 'webfont.js')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 03:08:50 --> Attempt to read property "booking_product_vender" on null
+in APPPATH/Controllers/Dashboard.php on line 547.
+ 1 APPPATH/Controllers/Dashboard.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "booking_product_vender" on null', 'APPPATH/Controllers/Dashboard.php', 547)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->order_details('FCPATH/assets', 'images', 'heywansa.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-07 03:08:51 --> Undefined variable $total_cart_amount
+in APPPATH/Controllers/Ajex.php on line 213.
+ 1 APPPATH/Controllers/Ajex.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_cart_amount', 'APPPATH/Controllers/Ajex.php', 213)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->my_cart_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

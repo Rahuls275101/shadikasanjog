@@ -1,0 +1,22 @@
+CRITICAL - 2026-05-02 06:59:23 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::setPost()
+in APPPATH/Controllers/Home.php on line 1000.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list_profile()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-02 07:06:40 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH/Models/Profilemodel.php on line 103.
+ 1 APPPATH/Models/Profilemodel.php(320): App\Models\Profilemodel->_get_datatables_query(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 APPPATH/Controllers/Home.php(961): App\Models\Profilemodel->count_all_frontend(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list_profile('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-02 07:07:40 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH/Models/Profilemodel.php on line 112.
+ 1 APPPATH/Models/Profilemodel.php(332): App\Models\Profilemodel->_get_datatables_query(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 APPPATH/Controllers/Home.php(961): App\Models\Profilemodel->count_all_frontend(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list_profile('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

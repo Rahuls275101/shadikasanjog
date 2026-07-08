@@ -1,0 +1,339 @@
+ERROR - 2023-08-31 00:21:11 --> mysqli_sql_exception: Unknown column 'attendance_employee_id' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(4659): App\Models\Commanmodel->get_single_query('category', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->uploadAttendance()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 00:21:11 --> Call to a member function getRow() on bool
+in APPPATH/Models/Commanmodel.php on line 91.
+ 1 APPPATH/Controllers/Admin.php(4659): App\Models\Commanmodel->get_single_query('category', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->uploadAttendance()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 11:15:37 --> Undefined property: stdClass::$attendance_employee_id
+in APPPATH/Controllers/Admin.php on line 1827.
+ 1 APPPATH/Controllers/Admin.php(1827): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attendance_employee_id', 'APPPATH/Controllers/Admin.php', 1827)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 11:15:45 --> Undefined property: stdClass::$attendance_employee_id
+in APPPATH/Controllers/Admin.php on line 1827.
+ 1 APPPATH/Controllers/Admin.php(1827): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attendance_employee_id', 'APPPATH/Controllers/Admin.php', 1827)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:11:48 --> Undefined array key "attendanceuct_search"
+in APPPATH/Models/Attendancemodel.php on line 27.
+ 1 APPPATH/Models/Attendancemodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "attendanceuct_search"', 'APPPATH/Models/Attendancemodel.php', 27)
+ 2 APPPATH/Models/Attendancemodel.php(80): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1813): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:12:35 --> Undefined array key "attendanceuct_search"
+in APPPATH/Models/Attendancemodel.php on line 27.
+ 1 APPPATH/Models/Attendancemodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "attendanceuct_search"', 'APPPATH/Models/Attendancemodel.php', 27)
+ 2 APPPATH/Models/Attendancemodel.php(80): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1813): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:37:46 --> Undefined variable $department
+in APPPATH/Views/admin/edit_user.php on line 146.
+ 1 APPPATH/Views/admin/edit_user.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'APPPATH/Views/admin/edit_user.php', 146)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(514): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:38:08 --> Undefined variable $department
+in APPPATH/Views/admin/edit_user.php on line 146.
+ 1 APPPATH/Views/admin/edit_user.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'APPPATH/Views/admin/edit_user.php', 146)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(514): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:42:43 --> Undefined variable $validation
+in APPPATH/Views/admin/edit_user.php on line 121.
+ 1 APPPATH/Views/admin/edit_user.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH/Views/admin/edit_user.php', 121)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH/Controllers/Admin.php(350): view('admin/edit_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:46:23 --> Call to a member function getError() on array
+in APPPATH/Views/admin/edit_user.php on line 121.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 4 APPPATH/Controllers/Admin.php(516): view('admin/edit_user', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('16')
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:52:54 --> Object of type CodeIgniter\Validation\Validation is not callable
+in APPPATH/Controllers/Admin.php on line 514.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('16')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:54:23 --> Call to a member function getError() on null
+in APPPATH/Views/admin/edit_user.php on line 121.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 4 APPPATH/Controllers/Admin.php(351): view('admin/edit_user', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:55:14 --> Call to a member function getError() on string
+in APPPATH/Views/admin/edit_user.php on line 121.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 4 APPPATH/Controllers/Admin.php(351): view('admin/edit_user', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('16')
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:07:42 --> Undefined property: stdClass::$attendance_employee_id
+in APPPATH/Models/Attendancemodel.php on line 55.
+ 1 APPPATH/Models/Attendancemodel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attendance_employee_id', 'APPPATH/Models/Attendancemodel.php', 55)
+ 2 APPPATH/Models/Attendancemodel.php(98): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1821): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:07:53 --> Undefined property: stdClass::$attendance_employee_id
+in APPPATH/Models/Attendancemodel.php on line 55.
+ 1 APPPATH/Models/Attendancemodel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attendance_employee_id', 'APPPATH/Models/Attendancemodel.php', 55)
+ 2 APPPATH/Models/Attendancemodel.php(98): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1821): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:10:06 --> Undefined property: stdClass::$employee_company_id
+in APPPATH/Controllers/Admin.php on line 1826.
+ 1 APPPATH/Controllers/Admin.php(1826): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$employee_company_id', 'APPPATH/Controllers/Admin.php', 1826)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:10:16 --> Undefined property: stdClass::$employee_company_id
+in APPPATH/Controllers/Admin.php on line 1826.
+ 1 APPPATH/Controllers/Admin.php(1826): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$employee_company_id', 'APPPATH/Controllers/Admin.php', 1826)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:12:17 --> Undefined property: stdClass::$employee_company_id
+in APPPATH/Controllers/Admin.php on line 1826.
+ 1 APPPATH/Controllers/Admin.php(1826): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$employee_company_id', 'APPPATH/Controllers/Admin.php', 1826)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:13:02 --> Undefined property: stdClass::$employee_company_id
+in APPPATH/Controllers/Admin.php on line 1826.
+ 1 APPPATH/Controllers/Admin.php(1826): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$employee_company_id', 'APPPATH/Controllers/Admin.php', 1826)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:25:47 --> Call to undefined function first_day_of_month()
+in APPPATH/Views/admin/attendance.php on line 75.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/attendance', [], true)
+ 4 APPPATH/Controllers/Admin.php(1807): view('admin/attendance', [])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attendance()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:29:11 --> Call to undefined function App\Controllers\first_day_of_month()
+in APPPATH/Controllers/Admin.php on line 1799.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attendance()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:29:35 --> Call to undefined function App\Controllers\first_day_of_month()
+in APPPATH/Controllers/Admin.php on line 1799.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attendance()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 03:33:02 --> Undefined variable $admindetails
+in APPPATH/Filters/AuthGuard.php on line 29.
+ 1 APPPATH/Filters/AuthGuard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admindetails', 'APPPATH/Filters/AuthGuard.php', 29)
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/profile', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 03:34:00 --> Attempt to read property "employee_state" on null
+in APPPATH/Controllers/Admin.php on line 4766.
+ 1 APPPATH/Controllers/Admin.php(4766): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "employee_state" on null', 'APPPATH/Controllers/Admin.php', 4766)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 03:43:47 --> Undefined variable $validation
+in APPPATH/Views/admin/profile.php on line 182.
+ 1 APPPATH/Views/admin/profile.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH/Views/admin/profile.php', 182)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/profile', [], true)
+ 5 APPPATH/Controllers/Admin.php(4774): view('admin/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 03:45:34 --> Undefined variable $validation
+in APPPATH/Views/admin/profile.php on line 182.
+ 1 APPPATH/Views/admin/profile.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH/Views/admin/profile.php', 182)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/profile', [], true)
+ 5 APPPATH/Controllers/Admin.php(4774): view('admin/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 03:54:46 --> Undefined variable $insert
+in APPPATH/Controllers/Admin.php on line 4917.
+ 1 APPPATH/Controllers/Admin.php(4917): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insert', 'APPPATH/Controllers/Admin.php', 4917)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_password_update('40')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 04:50:45 --> syntax error, unexpected token "."
+in APPPATH/Controllers/Admin.php on line 4969.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 04:50:47 --> syntax error, unexpected token "."
+in APPPATH/Controllers/Admin.php on line 4969.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 04:51:10 --> Undefined variable $employee
+in APPPATH/Controllers/Admin.php on line 4947.
+ 1 APPPATH/Controllers/Admin.php(4947): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'APPPATH/Controllers/Admin.php', 4947)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 04:51:37 --> Undefined variable $employee
+in APPPATH/Controllers/Admin.php on line 4947.
+ 1 APPPATH/Controllers/Admin.php(4947): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'APPPATH/Controllers/Admin.php', 4947)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:04:34 --> Call to undefined function App\Models\total_days_in_month()
+in APPPATH/Models/Commanmodel.php on line 168.
+ 1 APPPATH/Controllers/Admin.php(4965): App\Models\Commanmodel->salary_calculator('6', '2023', '38', '30000')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:04:37 --> Call to undefined function App\Models\total_days_in_month()
+in APPPATH/Models/Commanmodel.php on line 168.
+ 1 APPPATH/Controllers/Admin.php(4965): App\Models\Commanmodel->salary_calculator('6', '2023', '38', '30000')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:05:26 --> Call to undefined function App\Models\total_days_in_month()
+in APPPATH/Models/Commanmodel.php on line 168.
+ 1 APPPATH/Controllers/Admin.php(4965): App\Models\Commanmodel->salary_calculator('6', '2023', '38', '30000')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:32:46 --> Attempt to read property "employee_company_id" on null
+in APPPATH/Controllers/Admin.php on line 4934.
+ 1 APPPATH/Controllers/Admin.php(4934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "employee_company_id" on null', 'APPPATH/Controllers/Admin.php', 4934)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:32:48 --> Attempt to read property "employee_company_id" on null
+in APPPATH/Controllers/Admin.php on line 4934.
+ 1 APPPATH/Controllers/Admin.php(4934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "employee_company_id" on null', 'APPPATH/Controllers/Admin.php', 4934)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:32:55 --> Attempt to read property "employee_company_id" on null
+in APPPATH/Controllers/Admin.php on line 4934.
+ 1 APPPATH/Controllers/Admin.php(4934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "employee_company_id" on null', 'APPPATH/Controllers/Admin.php', 4934)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->salary_details('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 05:40:39 --> Undefined array key 2
+in APPPATH/Models/Attendancemodel.php on line 84.
+ 1 APPPATH/Models/Attendancemodel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH/Models/Attendancemodel.php', 84)
+ 2 APPPATH/Models/Attendancemodel.php(100): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1828): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 06:35:54 --> Cannot redeclare App\Controllers\Admin::company_detele()
+in APPPATH/Controllers/Admin.php on line 4124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-31 07:06:34 --> Undefined variable $alluser_view
+in APPPATH/Controllers/Admin.php on line 994.
+ 1 APPPATH/Controllers/Admin.php(994): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alluser_view', 'APPPATH/Controllers/Admin.php', 994)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_product_ajax()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 07:07:32 --> Undefined variable $purchasecount
+in APPPATH/Controllers/Admin.php on line 821.
+ 1 APPPATH/Controllers/Admin.php(821): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $purchasecount', 'APPPATH/Controllers/Admin.php', 821)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_delete('100')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 07:19:54 --> Undefined variable $resultcount
+in APPPATH/Controllers/Admin.php on line 2249.
+ 1 APPPATH/Controllers/Admin.php(2249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultcount', 'APPPATH/Controllers/Admin.php', 2249)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_delete('11')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

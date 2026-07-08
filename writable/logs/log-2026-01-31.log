@@ -1,0 +1,169 @@
+CRITICAL - 2026-01-31 02:37:03 --> Cannot use object of type stdClass as array
+in APPPATH/Views/frontend/dashboard/profile.php on line 940.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 4 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 02:52:57 --> Attempt to read property "family_income" on null
+in APPPATH/Views/frontend/dashboard/profile.php on line 948.
+ 1 APPPATH/Views/frontend/dashboard/profile.php(948): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "family_income" on null', 'APPPATH/Views/frontend/dashboard/profile.php', 948)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 02:53:44 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH/Views/frontend/profile_details.php on line 254.
+ 1 APPPATH/Views/frontend/profile_details.php(254): number_format('10 Lakhs to 20 Lakhs')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile_details', [], true)
+ 5 APPPATH/Controllers/Home.php(174): view('frontend/profile_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile_details('RAH0005')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 02:54:44 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH/Views/frontend/profile_details.php on line 254.
+ 1 APPPATH/Views/frontend/profile_details.php(254): number_format('10 Lakhs to 20 Lakhs')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile_details', [], true)
+ 5 APPPATH/Controllers/Home.php(174): view('frontend/profile_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile_details('RAH0005')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:11:45 --> syntax error, unexpected token "endif"
+in APPPATH/Views/frontend/profile_details.php on line 201.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile_details', [], true)
+ 3 APPPATH/Controllers/Home.php(176): view('frontend/profile_details')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile_details('RAH0005')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:21:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:21:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:21:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:21:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:22:27 --> Undefined property: App\Controllers\Home::$db
+in APPPATH/Controllers/Home.php on line 136.
+ 1 APPPATH/Controllers/Home.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'APPPATH/Controllers/Home.php', 136)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile_details('RAH0005')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:25:22 --> Undefined variable $user_id
+in APPPATH/Controllers/Home.php on line 139.
+ 1 APPPATH/Controllers/Home.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'APPPATH/Controllers/Home.php', 139)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile_details('RAH0005')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:56:19 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:56:19 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:56:19 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 03:56:19 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 05:28:10 --> Attempt to read property "membership_status" on null
+in APPPATH/Views/frontend/profile.php on line 56.
+ 1 APPPATH/Views/frontend/profile.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "membership_status" on null', 'APPPATH/Views/frontend/profile.php', 56)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH/Controllers/Home.php(124): view('frontend/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 05:29:39 --> Attempt to read property "membership_status" on null
+in APPPATH/Views/frontend/profile.php on line 56.
+ 1 APPPATH/Views/frontend/profile.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "membership_status" on null', 'APPPATH/Views/frontend/profile.php', 56)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/profile', [], true)
+ 5 APPPATH/Controllers/Home.php(124): view('frontend/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 05:43:52 --> syntax error, unexpected variable "$request"
+in APPPATH/Controllers/Home.php on line 764.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 06:04:08 --> Invalid file: profiles/_profile_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profiles/_profile_list.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('profiles/_profile_list', [], true)
+ 3 APPPATH/Controllers/Home.php(806): view('profiles/_profile_list', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list(1)
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-31 06:07:00 --> Call to undefined method App\Models\Profilemodel::count_all_frontend
+in SYSTEMPATH/Model.php on line 807.
+ 1 APPPATH/Controllers/Home.php(839): CodeIgniter\Model->__call('count_all_frontend', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->ajax_list_profile('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

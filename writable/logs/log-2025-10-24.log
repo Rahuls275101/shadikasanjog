@@ -1,0 +1,95 @@
+CRITICAL - 2025-10-24 00:43:59 --> Invalid file: sidebar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH/Views/frontend/dashboard/index.php(12): view('sidebar')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-24 00:44:00 --> Invalid file: sidebar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH/Views/frontend/dashboard/index.php(12): view('sidebar')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-24 00:44:04 --> Invalid file: sidebar.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH/Views/frontend/dashboard/index.php(12): view('sidebar')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(37): view('frontend/dashboard/index')
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-10-24 02:29:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ORDER BY `id` ASC' at line 3 in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Models/Commanmodel.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/shadi/app/Controllers/Ajex.php(32): App\Models\Commanmodel->all_multiple_query_order_by('religions', Array, 'id', 'ASC')
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Ajex->getCastes()
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+#8 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-10-24 02:29:22 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 520.
+ 1 APPPATH/Controllers/Ajex.php(32): App\Models\Commanmodel->all_multiple_query_order_by('religions', [...], 'id', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->getCastes()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-10-24 02:29:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ORDER BY `id` ASC' at line 3 in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Models/Commanmodel.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 /home3/snindustries/public_html/shadi/app/Controllers/Ajex.php(32): App\Models\Commanmodel->all_multiple_query_order_by('castes', Array, 'id', 'ASC')
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Ajex->getCastes()
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+#8 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-10-24 02:29:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 520.
+ 1 APPPATH/Controllers/Ajex.php(32): App\Models\Commanmodel->all_multiple_query_order_by('castes', [...], 'id', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->getCastes()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-24 04:36:40 --> Call to a member function isValid() on array
+in APPPATH/Controllers/Dashboard.php on line 622.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->update_user()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-24 04:40:09 --> Call to a member function isValid() on array
+in APPPATH/Controllers/Dashboard.php on line 622.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->update_user()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

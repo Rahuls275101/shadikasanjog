@@ -1,0 +1,156 @@
+ERROR - 2024-12-25 23:15:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'aseelect_newecom'@'localhost' to database 'aseelect_newecom' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#5 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-12-25 23:15:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-25 23:15:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'aseelect_newecom'@'localhost' to database 'aseelect_newecom' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#5 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-12-25 23:15:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-25 23:16:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'aseelect_newecom'@'localhost' to database 'aseelect_newecom' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#5 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-12-25 23:16:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-25 23:17:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'aseelect_newecom'@'localhost' to database 'aseelect_newecom' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+#5 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-12-25 23:17:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin.php(47): App\Models\Commanmodel->login_valid('admin@gmail.com')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

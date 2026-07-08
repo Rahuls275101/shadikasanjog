@@ -1,0 +1,91 @@
+ERROR - 2024-07-11 00:50:24 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 00:50:33 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 00:50:48 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 01:27:42 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 01:29:40 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 01:31:29 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-07-11 01:41:20 --> mysqli_sql_exception: Unknown column 'property_featurese_id' in 'where clause' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `propert...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `propert...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `propert...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `propert...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1884): App\Models\Commanmodel->update_query('property_featur...', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->update_property_process('15')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

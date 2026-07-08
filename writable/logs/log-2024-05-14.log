@@ -1,0 +1,315 @@
+CRITICAL - 2024-05-14 00:04:18 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:04:18 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:05:36 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:05:36 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:05:40 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:05:40 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:09:16 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:09:16 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:09:51 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:09:51 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:10:35 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:10:35 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:11:49 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:11:49 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:23:59 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:23:59 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:24:06 --> Attempt to read property "result" on null
+in APPPATH/Controllers/Home.php on line 87.
+ 1 APPPATH/Controllers/Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "result" on null', 'APPPATH/Controllers/Home.php', 87)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->answarsave()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:58:11 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:58:11 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:58:23 --> Attempt to read property "result" on null
+in APPPATH/Controllers/Home.php on line 87.
+ 1 APPPATH/Controllers/Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "result" on null', 'APPPATH/Controllers/Home.php', 87)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->answarsave()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:59:05 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 00:59:05 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:01:11 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:01:11 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:01:19 --> Attempt to read property "result" on null
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "result" on null', 'APPPATH/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->answarsave()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:03:46 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:03:46 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:03:56 --> Attempt to assign property "result1" on null
+in APPPATH/Controllers/Home.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->answarsave()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:05:01 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:05:01 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:06:25 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'car-side.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 01:06:25 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:40:34 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:43:23 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:43:42 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:43:51 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:44:57 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:46:00 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:46:17 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 04:59:09 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 05:02:19 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 05:10:56 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 05:14:41 --> Attempt to read property "description" on null
+in APPPATH/Views/frontend/tour.php on line 1.
+ 1 APPPATH/Views/frontend/tour.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "description" on null', 'APPPATH/Views/frontend/tour.php', 1)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/tour.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/tour', [], true)
+ 5 APPPATH/Controllers/Home.php(90): view('frontend/tour', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->tour('index.html')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 07:05:47 --> Attempt to read property "description" on null
+in APPPATH/Views/frontend/tour.php on line 1.
+ 1 APPPATH/Views/frontend/tour.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "description" on null', 'APPPATH/Views/frontend/tour.php', 1)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/tour.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/tour', [], true)
+ 5 APPPATH/Controllers/Home.php(90): view('frontend/tour', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->tour('index.html')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

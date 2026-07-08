@@ -1,0 +1,299 @@
+CRITICAL - 2025-09-29 05:54:51 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:54:51 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:54:51 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:54:51 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:13 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:13 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:13 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:13 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:25 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:25 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:25 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:25 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:38 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:38 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:38 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 05:59:38 --> Attempt to read property "cms_id" on null
+in APPPATH/Views/admin/edit-cms.php on line 36.
+ 1 APPPATH/Views/admin/edit-cms.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cms_id" on null', 'APPPATH/Views/admin/edit-cms.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-cms.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-cms', [], true)
+ 5 APPPATH/Controllers/Admin.php(758): view('admin/edit-cms', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_cms('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:06:24 --> Undefined variable $mainid
+in APPPATH/Views/frontend/catalog.php on line 86.
+ 1 APPPATH/Views/frontend/catalog.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mainid', 'APPPATH/Views/frontend/catalog.php', 86)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/catalog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/catalog', [], true)
+ 5 APPPATH/Controllers/Home.php(426): view('frontend/catalog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->collection('readymade-swimming-pool-in-bangalore')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:08:29 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:08:29 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:08:29 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:08:29 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:39 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:39 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:39 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:39 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:11:54 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:13:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:13:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:13:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-29 06:13:21 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3365.
+ 1 APPPATH/Controllers/Admin.php(3365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3365)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

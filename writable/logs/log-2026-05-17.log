@@ -1,0 +1,100 @@
+CRITICAL - 2026-05-17 00:13:47 --> Invalid file: frontend/checkout.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(1686): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 00:42:35 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1754.
+ 1 APPPATH/Controllers/Home.php(1754): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 06:28:41 --> Creation of dynamic property App\Controllers\Dashboard::$db is deprecated
+in APPPATH/Controllers/Dashboard.php on line 593.
+ 1 APPPATH/Controllers/Dashboard.php(593): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 13:46:53 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 21:32:43 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 21:42:27 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 21:51:15 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:02:23 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:11:49 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:21:13 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:33:08 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:42:18 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 22:52:35 --> Attempt to read property "meta_title" on null
+in APPPATH/Controllers/Home.php on line 701.
+ 1 APPPATH/Controllers/Home.php(701): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->blog_detail()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-05-17 23:30:44 --> Creation of dynamic property App\Controllers\Dashboard::$db is deprecated
+in APPPATH/Controllers/Dashboard.php on line 593.
+ 1 APPPATH/Controllers/Dashboard.php(593): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

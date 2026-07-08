@@ -1,0 +1,400 @@
+CRITICAL - 2023-01-04 00:02:53 --> Undefined variable $category
+in APPPATH\Controllers\Admin.php on line 219.
+ 1 APPPATH\Controllers\Admin.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Controllers\\Admin.php', 219)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->create_user_process()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:00 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:51 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:52 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:53 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:54 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:55 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:56 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:09:57 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:09 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:10 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:10 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:10 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:10 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:11 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:11 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:11 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:13 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:10:16 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 261.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:11:08 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 284.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:11:12 --> syntax error, unexpected single-quoted string "admin", expecting "]"
+in APPPATH\Controllers\Admin.php on line 284.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:11:33 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Admin.php on line 387.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:11:49 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Admin.php on line 386.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:12:17 --> Undefined array key "password"
+in APPPATH\Views\admin\edit_user.php on line 76.
+ 1 APPPATH\Views\admin\edit_user.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Views\\admin\\edit_user.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(383): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:31 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:32 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:35 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:35 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:36 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:15:39 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:17:24 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:17:25 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:17:25 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:17:26 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:17:26 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:18:29 --> Attempt to read property "category_add" on null
+in APPPATH\Views\admin\edit_user.php on line 141.
+ 1 APPPATH\Views\admin\edit_user.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_add" on null', 'APPPATH\\Views\\admin\\edit_user.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:20:03 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 00:20:35 --> Attempt to read property "category" on null
+in APPPATH\Views\admin\edit_user.php on line 140.
+ 1 APPPATH\Views\admin\edit_user.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category" on null', 'APPPATH\\Views\\admin\\edit_user.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/edit_user', [], true)
+ 5 APPPATH\Controllers\Admin.php(266): view('admin/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->edit_user('13')
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 05:38:13 --> Undefined variable $session
+in APPPATH\Filters\AuthGuard.php on line 14.
+ 1 APPPATH\Filters\AuthGuard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Filters\\AuthGuard.php', 14)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/edit-user/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 05:38:21 --> Undefined variable $session
+in APPPATH\Filters\AuthGuard.php on line 14.
+ 1 APPPATH\Filters\AuthGuard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Filters\\AuthGuard.php', 14)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/edit-user/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 05:38:26 --> Undefined variable $session
+in APPPATH\Filters\AuthGuard.php on line 14.
+ 1 APPPATH\Filters\AuthGuard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Filters\\AuthGuard.php', 14)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/edit-user/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 06:18:24 --> syntax error, unexpected end of file
+in APPPATH/Views/admin/sidebar.php on line 76.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/sidebar', [], true)
+ 3 APPPATH/Controllers/Admin.php(81): view('admin/sidebar')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

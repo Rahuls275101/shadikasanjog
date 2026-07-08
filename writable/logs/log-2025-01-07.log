@@ -1,0 +1,570 @@
+CRITICAL - 2025-01-07 03:41:20 --> Call to undefined function App\Controllers\renderCategoryTreeHTML()
+in APPPATH/Controllers/Ajex.php on line 106.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->getcategory()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:44:13 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 797.
+ 1 APPPATH/Controllers/Admin.php(797): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 797)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:05 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:08 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:11 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:12 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:50 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:52 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:52 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:52 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:52 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:52 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:53 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:53 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:54 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:50:56 --> Attempt to read property "parent_id" on null
+in APPPATH/Controllers/Admin.php on line 800.
+ 1 APPPATH/Controllers/Admin.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "parent_id" on null', 'APPPATH/Controllers/Admin.php', 800)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:59:34 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 792.
+ 1 APPPATH/Controllers/Admin.php(792): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 792)
+ 2 APPPATH/Controllers/Admin.php(806): App\Controllers\Admin->getnamecategory(0)
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 04:59:51 --> Attempt to read property "category_name" on null
+in APPPATH/Controllers/Admin.php on line 796.
+ 1 APPPATH/Controllers/Admin.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_name" on null', 'APPPATH/Controllers/Admin.php', 796)
+ 2 APPPATH/Controllers/Admin.php(808): App\Controllers\Admin->getnamecategory(0)
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:33:56 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:33:56 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:34:05 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:34:05 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:35:31 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:35:31 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:35:49 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:35:49 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:39:35 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:39:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:40:17 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:40:17 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 05:40:38 --> mysqli_sql_exception: Table 'aseelect_newecom.product' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-07 05:40:38 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(1550): App\Models\Commanmodel->getDataFromTable('product', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-07 06:00:35 --> Invalid file: admin/create_product.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create_product.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_product', [], true)
+ 3 APPPATH/Controllers/Admin.php(1612): view('admin/create_product', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

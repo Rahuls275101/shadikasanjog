@@ -1,0 +1,1008 @@
+ERROR - 2025-01-08 00:36:03 --> mysqli_sql_exception: Unknown column 'attributes_status' in 'where clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(230): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1606): App\Models\Commanmodel->all_multiple_query_order_by('attributes', Array, 'attributes_id', 'ASC')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-08 00:36:03 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 232.
+ 1 APPPATH/Controllers/Admin.php(1606): App\Models\Commanmodel->all_multiple_query_order_by('attributes', [...], 'attributes_id', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 00:37:33 --> Invalid file: admin/attributes.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/attributes.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/attributes', [], true)
+ 3 APPPATH/Controllers/Admin.php(2931): view('admin/attributes', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attributes()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:06:44 --> Undefined property: stdClass::$attributes_title
+in APPPATH/Controllers/Admin.php on line 2983.
+ 1 APPPATH/Controllers/Admin.php(2983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attributes_title', 'APPPATH/Controllers/Admin.php', 2983)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attributeslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:08:52 --> Undefined property: stdClass::$attributes_title
+in APPPATH/Controllers/Admin.php on line 2983.
+ 1 APPPATH/Controllers/Admin.php(2983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$attributes_title', 'APPPATH/Controllers/Admin.php', 2983)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->attributeslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:18:09 --> Undefined variable $amenities
+in APPPATH/Views/admin/edit_attributes.php on line 62.
+ 1 APPPATH/Views/admin/edit_attributes.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amenities', 'APPPATH/Views/admin/edit_attributes.php', 62)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_attributes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_attributes', [], true)
+ 5 APPPATH/Controllers/Admin.php(3144): view('admin/edit_attributes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:20:00 --> Undefined variable $amenities
+in APPPATH/Views/admin/edit_attributes.php on line 62.
+ 1 APPPATH/Views/admin/edit_attributes.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amenities', 'APPPATH/Views/admin/edit_attributes.php', 62)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_attributes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_attributes', [], true)
+ 5 APPPATH/Controllers/Admin.php(3151): view('admin/edit_attributes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:23:42 --> Attempt to read property "attribute_main_name" on null
+in APPPATH/Views/admin/edit_attributes.php on line 57.
+ 1 APPPATH/Views/admin/edit_attributes.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "attribute_main_name" on null', 'APPPATH/Views/admin/edit_attributes.php', 57)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_attributes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_attributes', [], true)
+ 5 APPPATH/Controllers/Admin.php(3151): view('admin/edit_attributes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:24:26 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:17 --> Undefined property: stdClass::$amenities_title
+in APPPATH/Views/admin/edit_attributes.php on line 57.
+ 1 APPPATH/Views/admin/edit_attributes.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$amenities_title', 'APPPATH/Views/admin/edit_attributes.php', 57)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_attributes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_attributes', [], true)
+ 5 APPPATH/Controllers/Admin.php(3151): view('admin/edit_attributes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('3')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:25:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:08 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:08 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:08 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:08 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:08 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:26:20 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:28:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:40 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:44 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:44 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:45 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:45 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:45 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:45 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:29:45 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:03 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:05 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:09 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:09 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:10 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:10 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:10 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:10 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:10 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:12 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:42 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:42 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:42 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:42 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 01:34:42 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-08 01:34:43 --> mysqli_sql_exception: Unknown column 'attributes_id' in 'where clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `attribu...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `attribu...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `attribu...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `attribu...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(3227): App\Models\Commanmodel->update_query('attribute_main', Array, Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->update_attributes_process('1')
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:31:41 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-08 02:31:42 --> mysqli_sql_exception: Unknown column 'attributes_id' in 'where clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `attribu...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `attribu...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `attribu...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `attribu...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(3227): App\Models\Commanmodel->update_query('attribute_main', Array, Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->update_attributes_process('3')
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:18 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-08 02:32:22 --> mysqli_sql_exception: Table 'aseelect_newecom.attribute' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `attribu...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `attribu...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `attribu...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `attribu...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(3227): App\Models\Commanmodel->update_query('attribute', Array, Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->update_attributes_process('3')
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:27 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:48 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:32:58 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-08 02:33:07 --> Attempt to read property "main_id" on null
+in APPPATH/Controllers/Admin.php on line 3143.
+ 1 APPPATH/Controllers/Admin.php(3143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "main_id" on null', 'APPPATH/Controllers/Admin.php', 3143)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_attributes('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

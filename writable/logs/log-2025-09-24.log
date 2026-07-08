@@ -1,0 +1,253 @@
+CRITICAL - 2025-09-24 05:02:44 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3363.
+ 1 APPPATH/Controllers/Admin.php(3363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3363)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 05:02:44 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3363.
+ 1 APPPATH/Controllers/Admin.php(3363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3363)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 05:02:44 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3363.
+ 1 APPPATH/Controllers/Admin.php(3363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3363)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 05:02:44 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3363.
+ 1 APPPATH/Controllers/Admin.php(3363): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3363)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 05:34:55 --> Undefined variable $productfirstrow
+in APPPATH/Views/frontend/index.php on line 136.
+ 1 APPPATH/Views/frontend/index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productfirstrow', 'APPPATH/Views/frontend/index.php', 136)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH/Controllers/Home.php(46): view('frontend/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '1.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '2.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '8.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '5.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '7.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '3.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '4.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:12:47 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:07 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '2.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '4.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '1.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '6.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '5.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '3.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '8.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 06:14:08 --> Undefined variable $catname
+in APPPATH/Controllers/Home.php on line 327.
+ 1 APPPATH/Controllers/Home.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catname', 'APPPATH/Controllers/Home.php', 327)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->catalog('FCPATH/assets', 'img', 'shop', '7.jpeg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-09-24 06:46:08 --> mysqli_sql_exception: Table 'aseelect_arrdev-pools.countries' doesn't exist in /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/arrdev-pools/app/Models/Commanmodel.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/arrdev-pools/app/Views/frontend/checkout.php(7): App\Models\Commanmodel->all_multiple_query_order_by('countries', Array, 'id', 'ASC')
+#6 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/arrdev-pools/system/Common.php(1135): CodeIgniter\View\View->render('frontend/checko...', Array, true)
+#9 /home2/aseelectricalco/public_html/arrdev-pools/app/Controllers/Home.php(939): view('frontend/checko...')
+#10 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(925): App\Controllers\Home->checkout()
+#11 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/arrdev-pools/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-09-24 06:46:08 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 520.
+ 1 APPPATH/Views/frontend/checkout.php(7): App\Models\Commanmodel->all_multiple_query_order_by('countries', [], 'id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(939): view('frontend/checkout')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-09-24 06:47:21 --> mysqli_sql_exception: Table 'aseelect_arrdev-pools.countries' doesn't exist in /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/arrdev-pools/app/Models/Commanmodel.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/arrdev-pools/app/Views/frontend/checkout.php(6): App\Models\Commanmodel->all_multiple_query_order_by('countries', Array, 'id', 'ASC')
+#6 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/arrdev-pools/system/Common.php(1135): CodeIgniter\View\View->render('frontend/checko...', Array, true)
+#9 /home2/aseelectricalco/public_html/arrdev-pools/app/Controllers/Home.php(939): view('frontend/checko...')
+#10 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(925): App\Controllers\Home->checkout()
+#11 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/arrdev-pools/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-09-24 06:47:21 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 520.
+ 1 APPPATH/Views/frontend/checkout.php(6): App\Models\Commanmodel->all_multiple_query_order_by('countries', [], 'id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(939): view('frontend/checkout')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-09-24 06:47:24 --> mysqli_sql_exception: Table 'aseelect_arrdev-pools.countries' doesn't exist in /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/arrdev-pools/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/arrdev-pools/app/Models/Commanmodel.php(518): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/arrdev-pools/app/Views/frontend/checkout.php(6): App\Models\Commanmodel->all_multiple_query_order_by('countries', Array, 'id', 'ASC')
+#6 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/arrdev-pools/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/arrdev-pools/system/Common.php(1135): CodeIgniter\View\View->render('frontend/checko...', Array, true)
+#9 /home2/aseelectricalco/public_html/arrdev-pools/app/Controllers/Home.php(939): view('frontend/checko...')
+#10 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(925): App\Controllers\Home->checkout()
+#11 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 /home2/aseelectricalco/public_html/arrdev-pools/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/arrdev-pools/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2025-09-24 06:47:24 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 520.
+ 1 APPPATH/Views/frontend/checkout.php(6): App\Models\Commanmodel->all_multiple_query_order_by('countries', [], 'id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(939): view('frontend/checkout')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 07:31:10 --> Attempt to read property "product_meta_title" on null
+in APPPATH/Controllers/Home.php on line 482.
+ 1 APPPATH/Controllers/Home.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_meta_title" on null', 'APPPATH/Controllers/Home.php', 482)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('css', 'templ-det-gallery.css')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-24 07:44:28 --> Undefined property: stdClass::$max_product_price
+in APPPATH/Views/frontend/product_details.php on line 53.
+ 1 APPPATH/Views/frontend/product_details.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$max_product_price', 'APPPATH/Views/frontend/product_details.php', 53)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/product_details.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/product_details', [], true)
+ 5 APPPATH/Controllers/Home.php(491): view('frontend/product_details')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->product_details('rectangular-bathtub-jacuzzi')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

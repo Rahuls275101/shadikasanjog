@@ -1,0 +1,187 @@
+CRITICAL - 2024-06-18 02:06:11 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 02:33:45 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 02:33:45 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 02:34:28 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 02:34:28 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 02:36:48 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 02:36:48 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 03:32:57 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 03:32:57 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(559): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 03:41:01 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(582): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 03:41:01 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(582): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 03:48:55 --> mysqli_sql_exception: Unknown column 'slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(582): App\Models\Commanmodel->get_url_slug('category', 'painted')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 03:48:55 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(582): App\Models\Commanmodel->get_url_slug('category', 'painted')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-18 10:13:16 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('machine-learning-certification-1718695603')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-18 10:47:52 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('introduction-to-ai-ml')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-18 11:16:52 --> mysqli_sql_exception: Column 'training_price_secondt' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1372): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-18 11:25:37 --> mysqli_sql_exception: Column 'training_price_secondt' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1372): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-18 12:49:26 --> mysqli_sql_exception: Column 'training_price_secondt' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1372): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-18 23:54:10 --> Attempt to read property "courses_id" on null
+in APPPATH/Controllers/Home.php on line 189.
+ 1 APPPATH/Controllers/Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_id" on null', 'APPPATH/Controllers/Home.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('introduction-to-ai-ml-1718731118')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

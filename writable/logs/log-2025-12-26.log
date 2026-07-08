@@ -1,0 +1,449 @@
+ERROR - 2025-12-26 00:44:09 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:44:22 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:44:25 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:46:43 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:46:46 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:46:48 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:46:49 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:46:51 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:47:05 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:48:16 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:49:35 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:49:36 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:49:38 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:50:24 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:50:25 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:50:27 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:52:31 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:53:12 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 00:57:02 --> mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(383): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->profile_verification()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 01:05:32 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(452): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_personal_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 01:05:48 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(452): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_personal_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 01:06:44 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(452): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_personal_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-12-26 01:29:01 --> Undefined variable $matches
+in APPPATH/Views/frontend/dashboard/profile.php on line 511.
+ 1 APPPATH/Views/frontend/dashboard/profile.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matches', 'APPPATH/Views/frontend/dashboard/profile.php', 511)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-12-26 01:34:07 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(453): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_personal_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 02:40:44 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `user_ac...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_ac...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_ac...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(453): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_personal_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-12-26 02:52:48 --> mysqli_sql_exception: Unknown column 'level_id' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(492): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_education_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-12-26 02:52:48 --> Undefined array key 1
+in APPPATH/Controllers/Dashboard.php on line 487.
+ 1 APPPATH/Controllers/Dashboard.php(487): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH/Controllers/Dashboard.php', 487)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->save_education_details()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 03:07:32 --> Attempt to read property "id" on string
+in APPPATH/Views/frontend/dashboard/profile.php on line 550.
+ 1 APPPATH/Views/frontend/dashboard/profile.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'APPPATH/Views/frontend/dashboard/profile.php', 550)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 03:08:46 --> Attempt to read property "education_level" on string
+in APPPATH/Views/frontend/dashboard/profile.php on line 563.
+ 1 APPPATH/Views/frontend/dashboard/profile.php(563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "education_level" on string', 'APPPATH/Views/frontend/dashboard/profile.php', 563)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 03:10:12 --> Undefined variable $q
+in APPPATH/Views/frontend/dashboard/profile.php on line 564.
+ 1 APPPATH/Views/frontend/dashboard/profile.php(564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $q', 'APPPATH/Views/frontend/dashboard/profile.php', 564)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/profile', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('frontend/dashboard/profile')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-12-26 03:23:12 --> mysqli_sql_exception: Unknown column 'profession' in 'field list' in /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home3/snindustries/public_html/shadi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home3/snindustries/public_html/shadi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home3/snindustries/public_html/shadi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home3/snindustries/public_html/shadi/app/Controllers/Dashboard.php(557): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(925): App\Controllers\Dashboard->save_work_details()
+#6 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home3/snindustries/public_html/shadi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/snindustries/public_html/shadi/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-12-26 03:33:37 --> Undefined property: App\Controllers\Dashboard::$db
+in APPPATH/Controllers/Dashboard.php on line 543.
+ 1 APPPATH/Controllers/Dashboard.php(543): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$db', 'APPPATH/Controllers/Dashboard.php', 543)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->save_work_details()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 03:44:36 --> Undefined variable $session
+in APPPATH/Controllers/Dashboard.php on line 575.
+ 1 APPPATH/Controllers/Dashboard.php(575): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH/Controllers/Dashboard.php', 575)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->saveFamilyDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 06:59:30 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 06:59:30 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 06:59:30 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 06:59:30 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 4918.
+ 1 APPPATH/Controllers/Admin.php(4918): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "religion_id" on null', 'APPPATH/Controllers/Admin.php', 4918)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 07:00:03 --> Attempt to read property "blog_id" on null
+in APPPATH/Views/admin/edit-blog.php on line 46.
+ 1 APPPATH/Views/admin/edit-blog.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_id" on null', 'APPPATH/Views/admin/edit-blog.php', 46)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(3615): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 07:00:03 --> Attempt to read property "blog_id" on null
+in APPPATH/Views/admin/edit-blog.php on line 46.
+ 1 APPPATH/Views/admin/edit-blog.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_id" on null', 'APPPATH/Views/admin/edit-blog.php', 46)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(3615): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 07:00:03 --> Attempt to read property "blog_id" on null
+in APPPATH/Views/admin/edit-blog.php on line 46.
+ 1 APPPATH/Views/admin/edit-blog.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_id" on null', 'APPPATH/Views/admin/edit-blog.php', 46)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(3615): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-12-26 07:00:03 --> Attempt to read property "blog_id" on null
+in APPPATH/Views/admin/edit-blog.php on line 46.
+ 1 APPPATH/Views/admin/edit-blog.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blog_id" on null', 'APPPATH/Views/admin/edit-blog.php', 46)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(3615): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,662 @@
+ERROR - 2023-08-21 00:20:36 --> mysqli_sql_exception: Column 'gst' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(1849): App\Models\Commanmodel->insert_query_get_inserid('company', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->company_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-21 00:48:01 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:48:01 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 00:48:09 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:48:09 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 00:49:54 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:49:54 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 00:50:19 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:50:19 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 00:50:38 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:50:38 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 00:50:45 --> mysqli_sql_exception: Unknown column 'admin_type' in 'where clause' in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Vendormodel.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 00:50:45 --> Call to a member function getResult() on bool
+in APPPATH/Models/Vendormodel.php on line 84.
+ 1 APPPATH/Controllers/Admin.php(2591): App\Models\Vendormodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 00:55:53 --> Undefined variable $dispatch
+in APPPATH/Controllers/Admin.php on line 2703.
+ 1 APPPATH/Controllers/Admin.php(2703): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dispatch', 'APPPATH/Controllers/Admin.php', 2703)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_edit('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 00:56:14 --> Undefined variable $dispatch
+in APPPATH/Controllers/Admin.php on line 2703.
+ 1 APPPATH/Controllers/Admin.php(2703): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dispatch', 'APPPATH/Controllers/Admin.php', 2703)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_edit('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 00:56:50 --> Invalid file: admin/vendor_creation_edit.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vendor_creation_edit.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/vendor_creation_edit', [], true)
+ 3 APPPATH/Controllers/Admin.php(2703): view('admin/vendor_creation_edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_edit('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 00:58:02 --> Invalid file: admin/vendor_creation_edit.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vendor_creation_edit.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/vendor_creation_edit', [], true)
+ 3 APPPATH/Controllers/Admin.php(2703): view('admin/vendor_creation_edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->vendor_creation_edit('1')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 01:44:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 02:27:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 02:28:09 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 02:28:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 03:34:17 --> Undefined property: stdClass::$company_id
+in APPPATH/Views/admin/product_edit.php on line 236.
+ 1 APPPATH/Views/admin/product_edit.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_id', 'APPPATH/Views/admin/product_edit.php', 236)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(971): view('admin/product_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit('2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:01:57 --> Undefined variable $vendor
+in APPPATH/Views/admin/product_edit.php on line 238.
+ 1 APPPATH/Views/admin/product_edit.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendor', 'APPPATH/Views/admin/product_edit.php', 238)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(972): view('admin/product_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit('2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:06:16 --> Undefined variable $vendor
+in APPPATH/Views/admin/product_edit.php on line 238.
+ 1 APPPATH/Views/admin/product_edit.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendor', 'APPPATH/Views/admin/product_edit.php', 238)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(972): view('admin/product_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit('2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:06:40 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/admin/product_edit.php on line 240.
+ 1 APPPATH/Views/admin/product_edit.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH/Views/admin/product_edit.php', 240)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(972): view('admin/product_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit('2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:11:39 --> Undefined array key "company"
+in APPPATH/Controllers/Admin.php on line 1026.
+ 1 APPPATH/Controllers/Admin.php(1026): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH/Controllers/Admin.php', 1026)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('2')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:13:28 --> Undefined array key "company"
+in APPPATH/Controllers/Admin.php on line 1032.
+ 1 APPPATH/Controllers/Admin.php(1032): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH/Controllers/Admin.php', 1032)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('2')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:13:58 --> Undefined array key "company"
+in APPPATH/Controllers/Admin.php on line 1036.
+ 1 APPPATH/Controllers/Admin.php(1036): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH/Controllers/Admin.php', 1036)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('2')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:36:28 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 820.
+ 1 APPPATH/Controllers/Admin.php(820): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 820)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->csv_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:37:16 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 822.
+ 1 APPPATH/Controllers/Admin.php(822): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 822)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->csv_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 04:39:43 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 822.
+ 1 APPPATH/Controllers/Admin.php(822): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 822)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->csv_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:22 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:23 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:29 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:31 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:42 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:07:43 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 860.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:11:14 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 857.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:11:15 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 857.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:11:21 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 857.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:15:29 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 858.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:15:31 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 858.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:15:37 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 858.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:15:44 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 858.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:15:47 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 858.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:20:27 --> Class "App\Controllers\Users" not found
+in APPPATH/Controllers/Admin.php on line 855.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:20:36 --> Class "App\Controllers\Users" not found
+in APPPATH/Controllers/Admin.php on line 855.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:20:55 --> Class "App\Controllers\Users" not found
+in APPPATH/Controllers/Admin.php on line 855.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 05:21:39 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Admin.php on line 862.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->exportToExcel_product()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 06:03:48 --> Undefined array key "Name"
+in APPPATH/Controllers/Admin.php on line 809.
+ 1 APPPATH/Controllers/Admin.php(809): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'APPPATH/Controllers/Admin.php', 809)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->csv_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 06:18:49 --> Cannot redeclare App\Controllers\Admin::csv_product_process_update()
+in APPPATH/Controllers/Admin.php on line 2359.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 06:28:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 06:38:37 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 07:10:46 --> Undefined array key "order_received"
+in APPPATH/Models/Tendermodel.php on line 40.
+ 1 APPPATH/Models/Tendermodel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_received"', 'APPPATH/Models/Tendermodel.php', 40)
+ 2 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:11:03 --> Undefined array key "order_received"
+in APPPATH/Models/Tendermodel.php on line 40.
+ 1 APPPATH/Models/Tendermodel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_received"', 'APPPATH/Models/Tendermodel.php', 40)
+ 2 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:11:11 --> Undefined array key "order_received"
+in APPPATH/Models/Tendermodel.php on line 40.
+ 1 APPPATH/Models/Tendermodel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_received"', 'APPPATH/Models/Tendermodel.php', 40)
+ 2 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:12:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 43.
+ 1 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:13:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 43.
+ 1 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:14:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 42.
+ 1 APPPATH/Models/Tendermodel.php(88): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:16:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_where()
+in APPPATH/Models/Tendermodel.php on line 43.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:17:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_where()
+in APPPATH/Models/Tendermodel.php on line 44.
+ 1 APPPATH/Models/Tendermodel.php(91): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:17:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_where()
+in APPPATH/Models/Tendermodel.php on line 44.
+ 1 APPPATH/Models/Tendermodel.php(91): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:19:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_where()
+in APPPATH/Models/Tendermodel.php on line 43.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:20:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_where()
+in APPPATH/Models/Tendermodel.php on line 43.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:21:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 07:21:36 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-21 07:25:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 44.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:25:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 44.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 07:26:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::or_like()
+in APPPATH/Models/Tendermodel.php on line 44.
+ 1 APPPATH/Models/Tendermodel.php(90): App\Models\Tendermodel->_get_datatables_query()
+ 2 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:35:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:35:21 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 95.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:36:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:36:54 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 95.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:37:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:37:11 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 87.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:37:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:37:11 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 87.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:37:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:37:15 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 87.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:37:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:37:20 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 87.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 07:37:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `tender_id` DESC
+ LIMIT 10' at line 4 in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Tendermodel.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-21 07:37:27 --> Call to a member function getResult() on bool
+in APPPATH/Models/Tendermodel.php on line 87.
+ 1 APPPATH/Controllers/Admin.php(2065): App\Models\Tendermodel->get_datatables()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,42 @@
+CRITICAL - 2023-01-31 05:33:42 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:33:44 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:33:44 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:33:45 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:33:51 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:34:24 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:34:40 --> Call to a member function insert_query() on null
+in APPPATH/Controllers/Admin.php on line 1077.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_scanner()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

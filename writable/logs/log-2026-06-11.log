@@ -1,0 +1,806 @@
+CRITICAL - 2026-06-11 08:12:28 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:45:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:45:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:45:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:45:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:53:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:53:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:53:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:53:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:54:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:54:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:54:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 09:54:38 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 15:31:28 --> Attempt to read property "cms_page_name" on null
+in APPPATH/Controllers/Home.php on line 1770.
+ 1 APPPATH/Controllers/Home.php(1770): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:01:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:01:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:01:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:01:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:20:15 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:20:15 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:20:16 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:20:16 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:26:35 --> syntax error, unexpected variable "$userdata"
+in APPPATH/Controllers/Dashboard.php on line 291.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:31:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:31:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:31:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:31:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:34:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:34:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:34:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:34:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:45:31 --> Undefined variable $userdata
+in APPPATH/Controllers/InterestController.php on line 29.
+ 1 APPPATH/Controllers/InterestController.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\InterestController->send()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:45:50 --> Undefined variable $userdata
+in APPPATH/Controllers/InterestController.php on line 29.
+ 1 APPPATH/Controllers/InterestController.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\InterestController->send()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:45:58 --> Undefined variable $commanmodel
+in APPPATH/Controllers/InterestController.php on line 31.
+ 1 APPPATH/Controllers/InterestController.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\InterestController->send()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 17:46:11 --> Undefined variable $commanmodel
+in APPPATH/Controllers/InterestController.php on line 31.
+ 1 APPPATH/Controllers/InterestController.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\InterestController->send()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:01:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:01:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:01:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:01:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:04:12 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:04:12 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:04:12 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:04:12 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:05:18 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:40 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:42 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:42 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:42 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:42 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:46 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:07:47 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:20 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:34 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:35 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:50 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:50 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:50 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:50 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:08:51 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:34:32 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:34:32 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:34:32 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:34:32 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:52 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:53 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:57 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:57 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:57 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:36:57 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:02 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:02 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:02 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:02 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:08 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:08 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:08 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:08 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:14 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:36 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:36 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:36 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-11 18:37:36 --> Attempt to read property "religion_id" on null
+in APPPATH/Controllers/Admin.php on line 5047.
+ 1 APPPATH/Controllers/Admin.php(5047): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->profile_view()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-06-11 18:38:45 --> mysqli_sql_exception: Unknown column 'user_id' in 'WHERE' in /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/glezbsuv7iuc/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/glezbsuv7iuc/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/glezbsuv7iuc/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/glezbsuv7iuc/public_html/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/glezbsuv7iuc/public_html/app/Models/Commanmodel.php(934): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/glezbsuv7iuc/public_html/app/Controllers/Admin.php(2651): App\Models\Commanmodel->get_query_count()
+#6 /home/glezbsuv7iuc/public_html/system/CodeIgniter.php(925): App\Controllers\Admin->user_delete()
+#7 /home/glezbsuv7iuc/public_html/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#8 /home/glezbsuv7iuc/public_html/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/glezbsuv7iuc/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-06-11 18:38:45 --> Call to a member function getNumRows() on false
+in APPPATH/Models/Commanmodel.php on line 935.
+ 1 APPPATH/Controllers/Admin.php(2651): App\Models\Commanmodel->get_query_count()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->user_delete()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,191 @@
+CRITICAL - 2023-01-09 03:19:38 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Admin.php on line 848.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 03:20:08 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Admin.php on line 848.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 03:48:21 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(902): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/product', '1673257701_ad1d98c7fdff4c200d8c.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 03:51:50 --> Call to a member function move() on string
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 03:59:55 --> unlink(assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:00:57 --> unlink(/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:02:47 --> unlink(/home2/aseelectricalco/public_html/warsi/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home2/aseelectricalco/public_html/warsi/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('FCPATH/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:03:11 --> unlink(/home2/aseelectricalco/public_html/warsi/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home2/aseelectricalco/public_html/warsi/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('FCPATH/assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:07:45 --> Call to a member function base_url() on null
+in APPPATH/Controllers/Admin.php on line 900.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:08:42 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Admin.php on line 901.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:09:16 --> unlink(../assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('../assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:09:27 --> unlink(./assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif): No such file or directory', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('./assets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:10:00 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH/Controllers/Admin.php', 899, [...])
+ 2 APPPATH/Controllers/Admin.php(899): unlink('https://ase-electrical.co.uk/warsiassets/product1673258002_8dee6e9ac69c9bfc1bd8.gif')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:12:26 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:13:25 --> Call to a member function helper() on null
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:15:29 --> Call to a member function helper() on null
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:16:10 --> Call to a member function helper() on null
+in APPPATH/Controllers/Admin.php on line 899.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:20:39 --> unlink(): No such file or directory
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): No such file or directory', 'APPPATH/Controllers/Admin.php', 902, [...])
+ 2 APPPATH/Controllers/Admin.php(902): unlink('/home2/aseelectricalco/public_html/warsi')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:21:15 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH/Controllers/Admin.php', 902, [...])
+ 2 APPPATH/Controllers/Admin.php(902): unlink('https://ase-electrical.co.uk/warsiassets/product1673259602_f0f6ca080c218ebf1865.png')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:25:17 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH/Controllers/Admin.php', 902, [...])
+ 2 APPPATH/Controllers/Admin.php(902): unlink('https://ase-electrical.co.uk/warsiassets/product/1673259754_c33f6a7a70ff44ddd19c.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:25:31 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH/Controllers/Admin.php', 902, [...])
+ 2 APPPATH/Controllers/Admin.php(902): unlink('https://ase-electrical.co.uk/warsiassets/product/1673259754_c33f6a7a70ff44ddd19c.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:26:54 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH/Controllers/Admin.php', 902, [...])
+ 2 APPPATH/Controllers/Admin.php(902): unlink('https://ase-electrical.co.uk/warsi/assets/product/1673259754_c33f6a7a70ff44ddd19c.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:28:12 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Admin.php on line 901.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:29:13 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Admin.php on line 902.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product_edit_process('1')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 05:50:54 --> Call to a member function get_datatables() on null
+in APPPATH/Controllers/Admin.php on line 123.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->em_userlist()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 06:01:51 --> syntax error, unexpected '$role' (T_VARIABLE)
+in APPPATH/Filters/AuthGuard.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Filters/AuthGuard.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\AuthGuard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\AuthGuard')
+ 4 SYSTEMPATH/Filters/Filters.php(166): spl_autoload_call('App\\Filters\\AuthGuard')
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\Filters\Filters->run('admin/user', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 06:14:18 --> Call to a member function setFlashdata() on null
+in APPPATH/Controllers/Admin.php on line 111.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->user()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

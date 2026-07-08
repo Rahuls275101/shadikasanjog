@@ -1,0 +1,859 @@
+CRITICAL - 2023-01-02 10:31:56 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-02 04:40:13 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:17 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:40:32 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:41:31 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:41:33 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\login.php on line 32.
+ 1 APPPATH\Views\admin\login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\login.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 5 APPPATH\Controllers\Admin.php(9): view('admin/login')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:07:29 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH\Controllers\Admin.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH\\Controllers\\Admin.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:07:39 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH\Controllers\Admin.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH\\Controllers\\Admin.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:07:57 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH\Controllers\Admin.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH\\Controllers\\Admin.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:09:10 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH\Controllers\Admin.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH\\Controllers\\Admin.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:12:14 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH\Controllers\Admin.php on line 14.
+ 1 APPPATH\Controllers\Admin.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH\\Controllers\\Admin.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:53:14 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH\Controllers\Admin.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH\\Controllers\\Admin.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 05:56:12 --> Access level to App\Models\Commanmodel::$db must be protected (as in class CodeIgniter\BaseModel) or weaker
+in APPPATH\Models\Commanmodel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 05:57:04 --> Access level to App\Models\Commanmodel::$db must be protected (as in class CodeIgniter\BaseModel) or weaker
+in APPPATH\Models\Commanmodel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 05:57:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:01:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:02:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:02:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:03:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:03:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:09:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:11:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Commanmodel.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:12:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:15:19 --> Undefined variable $db
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Models\Commanmodel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Commanmodel.php', 23)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:15:24 --> Undefined variable $db
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Models\Commanmodel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Commanmodel.php', 23)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:18:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:19:30 --> syntax error, unexpected variable "$query"
+in APPPATH\Models\Commanmodel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:19:34 --> syntax error, unexpected variable "$query"
+in APPPATH\Models\Commanmodel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:19:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Commanmodel.php on line 26.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:20:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Models\Commanmodel.php on line 26.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:20:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Models\Commanmodel.php on line 26.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:21:06 --> Undefined variable $builder
+in APPPATH\Models\Commanmodel.php on line 27.
+ 1 APPPATH\Models\Commanmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Models\\Commanmodel.php', 27)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:21:09 --> Undefined variable $builder
+in APPPATH\Models\Commanmodel.php on line 27.
+ 1 APPPATH\Models\Commanmodel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Models\\Commanmodel.php', 27)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:21:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\Commanmodel.php on line 27.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:22:25 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\Commanmodel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:22:29 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\Commanmodel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:22:36 --> Undefined variable $db
+in APPPATH\Models\Commanmodel.php on line 28.
+ 1 APPPATH\Models\Commanmodel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Commanmodel.php', 28)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:29:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:38:24 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:38:43 --> Undefined property: mysqli::$name
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$name', 'APPPATH\\Controllers\\Admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:39:00 --> Undefined property: mysqli::$email
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$email', 'APPPATH\\Controllers\\Admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:39:46 --> Undefined property: mysqli::$email
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$email', 'APPPATH\\Controllers\\Admin.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:43:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Commanmodel.php on line 24.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:44:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::all()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:46:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::listTables()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:46:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::listTables()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:47:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getFieldData()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:48:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::resultID()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:49:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::resultget()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:49:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::resultGet()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:49:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:49:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:49:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getesult()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-02 06:51:15 --> mysqli_sql_exception: Table 'warsi.adminn' doesn't exist in C:\xampp\htdocs\warsi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\warsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\warsi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\warsi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\warsi\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warsi\app\Models\Commanmodel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warsi\app\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('adminn', Array, 'id', 'ASC')
+#6 C:\xampp\htdocs\warsi\system\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+#7 C:\xampp\htdocs\warsi\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\warsi\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warsi\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-02 06:51:15 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Controllers\\Admin.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:53:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\Commanmodel.php on line 23.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 06:56:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:22:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:23:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:25:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getPlatform()
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->all_multiple_query_order_by('admin', [...], 'id', 'ASC')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:29:00 --> syntax error, unexpected variable "$this"
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:29:25 --> syntax error, unexpected variable "$this"
+in APPPATH\Models\Commanmodel.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Commanmodel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Commanmodel')
+ 3 APPPATH\Controllers\Admin.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Commanmodel')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:40:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:41:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:43:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:43:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:44:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:45:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:45:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:45:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:45:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:46:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:48:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:49:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:49:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:50:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:51:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:52:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:52:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Commanmodel.php(31): CodeIgniter\Model->__call('table', [...])
+ 4 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:52:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\Commanmodel.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:52:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\Commanmodel.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:53:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row()
+in APPPATH\Models\Commanmodel.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query('admin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:56:40 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Admin.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 22:56:56 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'APPPATH\\Controllers\\Admin.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:08:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(17): CodeIgniter\Model->__call('get_single_query_count', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:09:33 --> Attempt to read property "id" on int
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on int', 'APPPATH\\Controllers\\Admin.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:10:16 --> foreach() argument must be of type array|object, int given
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Controllers\\Admin.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:11:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\Commanmodel.php on line 49.
+ 1 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->get_single_query_count('admin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:11:57 --> foreach() argument must be of type array|object, int given
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Controllers\\Admin.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:26:05 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #2 ($escape) must be of type ?bool, array given, called in C:\xampp\htdocs\warsi\app\Models\Commanmodel.php on line 35
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Models\Commanmodel.php(35): CodeIgniter\Database\BaseBuilder->insert('admin', [...])
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->insert_query_get_inserid('admin', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:31:06 --> Undefined variable $datae
+in APPPATH\Models\Commanmodel.php on line 41.
+ 1 APPPATH\Models\Commanmodel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datae', 'APPPATH\\Models\\Commanmodel.php', 41)
+ 2 APPPATH\Controllers\Admin.php(17): App\Models\Commanmodel->update_query('admin', [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:40:56 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:43:00 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:43:28 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:44:50 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:45:53 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:46:00 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:46:43 --> Undefined variable $commanmodel
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 APPPATH\Controllers\Admin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH\\Controllers\\Admin.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Admin->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:47:47 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:54:36 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:54:59 --> Undefined property: App\Controllers\Admin::$db
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 APPPATH\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$db', 'APPPATH\\Controllers\\Admin.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:55:15 --> Undefined property: App\Controllers\Admin::$parent
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 APPPATH\Controllers\Admin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$parent', 'APPPATH\\Controllers\\Admin.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:55:25 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:56:36 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:56:47 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 23:56:57 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

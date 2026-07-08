@@ -1,0 +1,364 @@
+CRITICAL - 2023-01-07 00:12:27 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:12:37 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:13:01 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:14:04 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:14:30 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:14:53 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 00:15:55 --> Call to a member function post() on null
+in APPPATH/Controllers/Admin.php on line 437.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 01:38:50 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 01:38:57 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:53 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:56 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:56 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:56 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:56 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:56 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:57 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:57 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:57 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:30:57 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:01 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:02 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:31:20 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:32:13 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 511.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:32 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:38 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:38 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:39 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:47 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:35:47 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:36:00 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 512.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:37:10 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673080630_ba9c13727d6f94bc8f1a')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:38:04 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 498.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:38:36 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673080716_fe46f512e9ec0bca9977')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:39:08 --> Call to a member function get_url_slug_update() on null
+in APPPATH/Controllers/Admin.php on line 496.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:44:00 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(506): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673081040_95343646f08258caf7b2')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:44:21 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(506): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673081061_07b2bc2c95ddfab3881c')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:49:07 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(506): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673081347_21b3fc33e9b6fca52069')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 02:49:45 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH/Controllers/Admin.php(500): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/assets/category', '1673081385_2f5d8a8f1fd390a4c001')
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_update()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-07 03:07:20 --> mysqli_sql_exception: Column 'parent_id' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(474): App\Models\Commanmodel->insert_query('category', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-07 03:07:58 --> mysqli_sql_exception: Column 'parent_id' cannot be null in /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/warsi/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home2/aseelectricalco/public_html/warsi/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home2/aseelectricalco/public_html/warsi/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home2/aseelectricalco/public_html/warsi/app/Models/Commanmodel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/warsi/app/Controllers/Admin.php(474): App\Models\Commanmodel->insert_query('category', Array)
+#6 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+#7 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/warsi/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/warsi/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-07 06:52:46 --> Call to a member function flashdata() on null
+in APPPATH/Views/admin/product.php on line 39.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product', [], true)
+ 4 APPPATH/Controllers/Admin.php(588): view('admin/product')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 06:53:35 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/product.php on line 108.
+ 1 APPPATH/Views/admin/product.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/product.php', 108, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH/Controllers/Admin.php(588): view('admin/product')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-07 06:56:31 --> Invalid argument supplied for foreach()
+in APPPATH/Views/admin/product.php on line 126.
+ 1 APPPATH/Views/admin/product.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/admin/product.php', 126, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/product', [], true)
+ 5 APPPATH/Controllers/Admin.php(592): view('admin/product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->product()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

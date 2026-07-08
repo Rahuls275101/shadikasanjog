@@ -1,0 +1,1162 @@
+CRITICAL - 2024-05-17 00:13:14 --> Attempt to read property "franchise_category" on null
+in APPPATH/Controllers/Home.php on line 20.
+ 1 APPPATH/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "franchise_category" on null', 'APPPATH/Controllers/Home.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->franchise('icons', 'rama.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 01:58:18 --> Undefined variable $category
+in APPPATH/Views/admin/create_courses.php on line 93.
+ 1 APPPATH/Views/admin/create_courses.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH/Views/admin/create_courses.php', 93)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/create_courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_courses', [], true)
+ 5 APPPATH/Controllers/Admin.php(868): view('admin/create_courses')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_courses()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 02:00:56 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Admin.php on line 867.
+ 1 APPPATH/Controllers/Admin.php(867): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Admin.php', 867)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_courses()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 02:01:21 --> Undefined variable $category
+in APPPATH/Views/admin/create_courses.php on line 93.
+ 1 APPPATH/Views/admin/create_courses.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH/Views/admin/create_courses.php', 93)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/create_courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_courses', [], true)
+ 5 APPPATH/Controllers/Admin.php(872): view('admin/create_courses')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_courses()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 04:57:48 --> Cannot redeclare App\Controllers\Admin::create_user_process()
+in APPPATH/Controllers/Admin.php on line 877.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-05-17 05:04:31 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-17 05:04:31 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 985.
+ 1 APPPATH/Controllers/Admin.php(985): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 985)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 05:05:51 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:07:19 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:08:42 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(972): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:09:12 --> mysqli_sql_exception: Column 'overview' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(978): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:09:42 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(980): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:10:16 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:11:03 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(967): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:11:27 --> mysqli_sql_exception: Column 'overview' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(980): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:12:21 --> mysqli_sql_exception: Column 'overview' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(979): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:12:50 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(972): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:14:26 --> mysqli_sql_exception: Column 'overview' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(978): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:14:46 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:15:09 --> mysqli_sql_exception: Column 'overview' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(978): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:16:18 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-17 05:16:40 --> mysqli_sql_exception: Column 'courses_type' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(982): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-17 05:51:29 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 872.
+ 1 APPPATH/Controllers/Admin.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 872)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->courseslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:52:48 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 872.
+ 1 APPPATH/Controllers/Admin.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 872)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->courseslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:53:21 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 872.
+ 1 APPPATH/Controllers/Admin.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 872)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->courseslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:55:34 --> Undefined array key "searchname"
+in APPPATH/Controllers/Admin.php on line 872.
+ 1 APPPATH/Controllers/Admin.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "searchname"', 'APPPATH/Controllers/Admin.php', 872)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->courseslist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:12:26 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH/Controllers/Admin.php on line 1131.
+ 1 APPPATH/Controllers/Admin.php(1131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH/Controllers/Admin.php', 1131)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_courses('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:13:01 --> Undefined variable $commanmodel
+in APPPATH/Views/admin/edit_courses.php on line 197.
+ 1 APPPATH/Views/admin/edit_courses.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Views/admin/edit_courses.php', 197)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_courses.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_courses', [], true)
+ 5 APPPATH/Controllers/Admin.php(1137): view('admin/edit_courses', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_courses('1')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:28:09 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 1230.
+ 1 APPPATH/Controllers/Admin.php(1230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 1230)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:28:53 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH/Controllers/Admin.php on line 1232.
+ 1 APPPATH/Controllers/Admin.php(1232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH/Controllers/Admin.php', 1232)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:29:30 --> Undefined variable $Commanmodel
+in APPPATH/Controllers/Admin.php on line 1232.
+ 1 APPPATH/Controllers/Admin.php(1232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Commanmodel', 'APPPATH/Controllers/Admin.php', 1232)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:30:00 --> Undefined variable $Commanmodel
+in APPPATH/Controllers/Admin.php on line 1232.
+ 1 APPPATH/Controllers/Admin.php(1232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Commanmodel', 'APPPATH/Controllers/Admin.php', 1232)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:30:29 --> Undefined variable $post_data
+in APPPATH/Controllers/Admin.php on line 1293.
+ 1 APPPATH/Controllers/Admin.php(1293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post_data', 'APPPATH/Controllers/Admin.php', 1293)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:34:14 --> Undefined array key "item_new_time_edit_1"
+in APPPATH/Controllers/Admin.php on line 1264.
+ 1 APPPATH/Controllers/Admin.php(1264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_new_time_edit_1"', 'APPPATH/Controllers/Admin.php', 1264)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 06:57:24 --> mysqli_sql_exception: Table 'aseelect_mindbels.user_account' doesn't exist in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(164): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Views/admin/edit-blog.php(122): App\Models\Commanmodel->all_multiple_query_order_by('user_account', Array, 'account_id', 'ASC')
+#6 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/mindbels/system/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', Array, true)
+#9 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1553): view('admin/edit-blog', Array)
+#10 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+#11 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-05-17 06:57:24 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 166.
+ 1 APPPATH/Views/admin/edit-blog.php(122): App\Models\Commanmodel->all_multiple_query_order_by('user_account', [...], 'account_id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(1553): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 06:57:29 --> mysqli_sql_exception: Table 'aseelect_mindbels.user_account' doesn't exist in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(164): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Views/admin/create-blog.php(121): App\Models\Commanmodel->all_multiple_query_order_by('user_account', Array, 'account_id', 'ASC')
+#6 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/mindbels/system/Common.php(1135): CodeIgniter\View\View->render('admin/create-bl...', Array, true)
+#9 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1363): view('admin/create-bl...')
+#10 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_blog()
+#11 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-05-17 06:57:29 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 166.
+ 1 APPPATH/Views/admin/create-blog.php(121): App\Models\Commanmodel->all_multiple_query_order_by('user_account', [...], 'account_id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/create-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(1363): view('admin/create-blog')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_blog()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 07:03:29 --> mysqli_sql_exception: Table 'aseelect_mindbels.user_account' doesn't exist in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(164): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Views/admin/edit-blog.php(95): App\Models\Commanmodel->all_multiple_query_order_by('user_account', Array, 'account_id', 'ASC')
+#6 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/mindbels/system/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', Array, true)
+#9 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1551): view('admin/edit-blog', Array)
+#10 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+#11 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-05-17 07:03:29 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 166.
+ 1 APPPATH/Views/admin/edit-blog.php(95): App\Models\Commanmodel->all_multiple_query_order_by('user_account', [...], 'account_id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(1551): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 07:03:32 --> mysqli_sql_exception: Table 'aseelect_mindbels.user_account' doesn't exist in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(164): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Views/admin/edit-blog.php(95): App\Models\Commanmodel->all_multiple_query_order_by('user_account', Array, 'account_id', 'ASC')
+#6 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/mindbels/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/mindbels/system/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', Array, true)
+#9 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1551): view('admin/edit-blog', Array)
+#10 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+#11 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-05-17 07:03:32 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 166.
+ 1 APPPATH/Views/admin/edit-blog.php(95): App\Models\Commanmodel->all_multiple_query_order_by('user_account', [...], 'account_id', 'ASC')
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit-blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit-blog', [], true)
+ 5 APPPATH/Controllers/Admin.php(1551): view('admin/edit-blog', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_our_blog('18')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:17:24 --> Undefined variable $pageurl
+in APPPATH/Views/frontend/header.php on line 6.
+ 1 APPPATH/Views/frontend/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageurl', 'APPPATH/Views/frontend/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(10): view('frontend/header')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:19:51 --> Undefined variable $pageurl
+in APPPATH/Views/frontend/header.php on line 6.
+ 1 APPPATH/Views/frontend/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageurl', 'APPPATH/Views/frontend/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(20): view('frontend/header')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:19:55 --> Undefined variable $pageurl
+in APPPATH/Views/frontend/header.php on line 6.
+ 1 APPPATH/Views/frontend/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageurl', 'APPPATH/Views/frontend/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(20): view('frontend/header')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:19:57 --> Undefined variable $pageurl
+in APPPATH/Views/frontend/header.php on line 6.
+ 1 APPPATH/Views/frontend/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageurl', 'APPPATH/Views/frontend/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/header.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/header', [], true)
+ 5 APPPATH/Controllers/Home.php(20): view('frontend/header')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-17 07:48:31 --> mysqli_sql_exception: Unknown column 'url_slug' in 'where clause' in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(474): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1279): App\Models\Commanmodel->get_url_slug('courses', 'professional-sc...')
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-17 07:48:31 --> Call to a member function getNumRows() on bool
+in APPPATH/Models/Commanmodel.php on line 475.
+ 1 APPPATH/Controllers/Admin.php(1279): App\Models\Commanmodel->get_url_slug('courses', 'professional-scrum-product-owner-pspo')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->update_courses_process('1')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:57:48 --> Undefined variable $commanmodel
+in APPPATH/Controllers/Home.php on line 25.
+ 1 APPPATH/Controllers/Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Controllers/Home.php', 25)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('professional-scrum-product-owner-pspo')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'courses', 'courses_details.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_2.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'payment.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'lock.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'bg', 'breadcrumb_bg.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:58:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_2.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'lock.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:13 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'payment.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:01:14 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:52 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:52 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:52 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'lock.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:52 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:52 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_2.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'payment.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:04:53 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'breadcrumb_shape05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_2.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'lock.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'Screenshot_1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'others', 'payment.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon05.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'right_arrow.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon03.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon01.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon02.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon06.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 08:06:30 --> Attempt to read property "courses_title" on null
+in APPPATH/Controllers/Home.php on line 28.
+ 1 APPPATH/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "courses_title" on null', 'APPPATH/Controllers/Home.php', 28)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->courses_details('FCPATH/assets', 'img', 'icons', 'course_icon04.svg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

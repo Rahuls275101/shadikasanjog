@@ -1,0 +1,955 @@
+ERROR - 2025-01-09 01:03:08 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1713): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:03:08 --> Call to a member function getRandomName() on array
+in APPPATH/Controllers/Admin.php on line 1747.
+ 1 APPPATH/Controllers/Admin.php(1716): App\Controllers\Admin->handle_product_images(0)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 01:07:52 --> Undefined array key "attributes"
+in APPPATH/Controllers/Admin.php on line 1705.
+ 1 APPPATH/Controllers/Admin.php(1705): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "attributes"', 'APPPATH/Controllers/Admin.php', 1705)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:08:20 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:08:20 --> Undefined array key "variant_images"
+in APPPATH/Controllers/Admin.php on line 1762.
+ 1 APPPATH/Controllers/Admin.php(1762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "variant_images"', 'APPPATH/Controllers/Admin.php', 1762)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:10:44 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:10:44 --> Undefined array key 0
+in APPPATH/Controllers/Admin.php on line 1762.
+ 1 APPPATH/Controllers/Admin.php(1762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH/Controllers/Admin.php', 1762)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 01:11:18 --> Attempt to read property "attribute_main_id" on null
+in APPPATH/Controllers/Ajex.php on line 24.
+ 1 APPPATH/Controllers/Ajex.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "attribute_main_id" on null', 'APPPATH/Controllers/Ajex.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Ajex->getattributes()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajex))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:12:47 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:12:47 --> Undefined array key 0
+in APPPATH/Controllers/Admin.php on line 1762.
+ 1 APPPATH/Controllers/Admin.php(1762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH/Controllers/Admin.php', 1762)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:14:37 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:14:37 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH/Controllers/Admin.php on line 1784.
+ 1 APPPATH/Controllers/Admin.php(1784): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH/Controllers/Admin.php', 1784)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:15:14 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 01:15:14 --> Undefined property: App\Controllers\Admin::$input
+in APPPATH/Controllers/Admin.php on line 1792.
+ 1 APPPATH/Controllers/Admin.php(1792): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$input', 'APPPATH/Controllers/Admin.php', 1792)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 01:16:04 --> syntax error, unexpected token "=", expecting ")"
+in APPPATH/Controllers/Admin.php on line 1797.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 SYSTEMPATH/CodeIgniter.php(875): class_exists('\\App\\Controllers\\Admin', true)
+ 5 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:17:50 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1730): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 03:54:16 --> Invalid file: admin/create_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create_user.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_user', [], true)
+ 3 APPPATH/Controllers/Admin.php(1835): view('admin/create_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 03:54:25 --> Invalid file: admin/create_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create_user.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_user', [], true)
+ 3 APPPATH/Controllers/Admin.php(1835): view('admin/create_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 03:55:19 --> Invalid file: admin/create_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create_user.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/create_user', [], true)
+ 3 APPPATH/Controllers/Admin.php(1835): view('admin/create_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 03:57:49 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:01:08 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:02:01 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:02:21 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:03:30 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:06:20 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-01-09 04:06:32 --> mysqli_sql_exception: Column 'product_create_by' cannot be null in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1729): App\Models\Commanmodel->insert_query_get_inserid('product', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 04:08:14 --> Undefined variable $inserted
+in APPPATH/Controllers/Admin.php on line 1776.
+ 1 APPPATH/Controllers/Admin.php(1776): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $inserted', 'APPPATH/Controllers/Admin.php', 1776)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:09:34 --> Undefined property: stdClass::$primary_image
+in APPPATH/Controllers/Admin.php on line 1562.
+ 1 APPPATH/Controllers/Admin.php(1562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$primary_image', 'APPPATH/Controllers/Admin.php', 1562)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:10:22 --> Undefined property: stdClass::$primary_image
+in APPPATH/Controllers/Admin.php on line 1562.
+ 1 APPPATH/Controllers/Admin.php(1562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$primary_image', 'APPPATH/Controllers/Admin.php', 1562)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:27:03 --> Undefined array key "group_1"
+in APPPATH/Controllers/Admin.php on line 1796.
+ 1 APPPATH/Controllers/Admin.php(1796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group_1"', 'APPPATH/Controllers/Admin.php', 1796)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_product_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:34:19 --> Undefined property: stdClass::$primary_image
+in APPPATH/Controllers/Admin.php on line 1562.
+ 1 APPPATH/Controllers/Admin.php(1562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$primary_image', 'APPPATH/Controllers/Admin.php', 1562)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:34:40 --> Undefined property: stdClass::$primary_image
+in APPPATH/Controllers/Admin.php on line 1562.
+ 1 APPPATH/Controllers/Admin.php(1562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$primary_image', 'APPPATH/Controllers/Admin.php', 1562)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:35:34 --> Undefined variable $name
+in APPPATH/Controllers/Admin.php on line 1575.
+ 1 APPPATH/Controllers/Admin.php(1575): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH/Controllers/Admin.php', 1575)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->productlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 04:44:25 --> mysqli_sql_exception: Table 'aseelect_newecom.product_attribute' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(230): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1846): App\Models\Commanmodel->all_multiple_query_order_by('product_attribu...', Array, 'product_attribu...', 'ASC')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 04:44:25 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 232.
+ 1 APPPATH/Controllers/Admin.php(1846): App\Models\Commanmodel->all_multiple_query_order_by('product_attribute', [...], 'product_attribute_id', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 04:44:35 --> mysqli_sql_exception: Table 'aseelect_newecom.product_attribute' doesn't exist in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(230): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(1846): App\Models\Commanmodel->all_multiple_query_order_by('product_attribu...', Array, 'product_attribu...', 'ASC')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-09 04:44:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 232.
+ 1 APPPATH/Controllers/Admin.php(1846): App\Models\Commanmodel->all_multiple_query_order_by('product_attribute', [...], 'product_attribute_id', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:46:08 --> Invalid file: admin/edit_product.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_product.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 3 APPPATH/Controllers/Admin.php(1855): view('admin/edit_product', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:46:39 --> Undefined variable $property
+in APPPATH/Views/admin/edit_product.php on line 208.
+ 1 APPPATH/Views/admin/edit_product.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $property', 'APPPATH/Views/admin/edit_product.php', 208)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1855): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:52:13 --> Undefined variable $property
+in APPPATH/Views/admin/edit_product.php on line 365.
+ 1 APPPATH/Views/admin/edit_product.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $property', 'APPPATH/Views/admin/edit_product.php', 365)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:52:41 --> Undefined variable $property
+in APPPATH/Views/admin/edit_product.php on line 365.
+ 1 APPPATH/Views/admin/edit_product.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $property', 'APPPATH/Views/admin/edit_product.php', 365)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:53:05 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:51 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:51 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:51 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:51 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:52 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:52 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:56:52 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:57:36 --> Attempt to read property "product_name" on null
+in APPPATH/Views/admin/edit_product.php on line 210.
+ 1 APPPATH/Views/admin/edit_product.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_name" on null', 'APPPATH/Views/admin/edit_product.php', 210)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1856): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:02:30 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:02:50 --> Undefined property: App\Controllers\Admin::$Commanmodel
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$Commanmodel', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:13 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:03:37 --> Undefined property: CodeIgniter\View\View::$Commanmodel
+in APPPATH/Views/admin/edit_product.php on line 304.
+ 1 APPPATH/Views/admin/edit_product.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Commanmodel', 'APPPATH/Views/admin/edit_product.php', 304)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_product.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_product', [], true)
+ 5 APPPATH/Controllers/Admin.php(1861): view('admin/edit_product', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('12')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:05:06 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:07:20 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:11 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:10:49 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:24 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'logo', 'favicon.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:24 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'icons', 'clops.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:11:25 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 1848.
+ 1 APPPATH/Controllers/Admin.php(1848): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 1848)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'user-1.png')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

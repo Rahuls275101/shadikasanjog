@@ -1,0 +1,14 @@
+CRITICAL - 2024-04-08 01:32:07 --> Undefined variable $employee
+in APPPATH/Controllers/Admin.php on line 206.
+ 1 APPPATH/Controllers/Admin.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'APPPATH/Controllers/Admin.php', 206)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->create_franchise_process()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 07:32:44 --> Undefined variable $category_image
+in APPPATH/Controllers/Admin.php on line 203.
+ 1 APPPATH/Controllers/Admin.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category_image', 'APPPATH/Controllers/Admin.php', 203)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_save()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

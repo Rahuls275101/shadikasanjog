@@ -1,0 +1,14 @@
+CRITICAL - 2024-06-28 09:43:23 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('url')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 09:57:29 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('url')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

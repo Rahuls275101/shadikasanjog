@@ -1,0 +1,104 @@
+CRITICAL - 2023-08-22 00:04:39 --> Undefined variable $status_color
+in APPPATH/Controllers/Admin.php on line 2272.
+ 1 APPPATH/Controllers/Admin.php(2272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_color', 'APPPATH/Controllers/Admin.php', 2272)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_update('3')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 00:06:22 --> Cannot redeclare App\Controllers\Admin::tender_update()
+in APPPATH/Controllers/Admin.php on line 2266.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 00:06:45 --> Undefined variable $status
+in APPPATH/Controllers/Admin.php on line 2102.
+ 1 APPPATH/Controllers/Admin.php(2102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'APPPATH/Controllers/Admin.php', 2102)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->order_update('3')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 00:35:08 --> Undefined array key "tender_approval"
+in APPPATH/Controllers/Admin.php on line 2177.
+ 1 APPPATH/Controllers/Admin.php(2177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tender_approval"', 'APPPATH/Controllers/Admin.php', 2177)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 00:35:44 --> Undefined array key "tender_approval"
+in APPPATH/Controllers/Admin.php on line 2177.
+ 1 APPPATH/Controllers/Admin.php(2177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tender_approval"', 'APPPATH/Controllers/Admin.php', 2177)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 00:35:56 --> Undefined array key "tender_approval"
+in APPPATH/Controllers/Admin.php on line 2177.
+ 1 APPPATH/Controllers/Admin.php(2177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tender_approval"', 'APPPATH/Controllers/Admin.php', 2177)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 02:03:08 --> Undefined array key "order_status"
+in APPPATH/Models/Tendermodel.php on line 66.
+ 1 APPPATH/Models/Tendermodel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_status"', 'APPPATH/Models/Tendermodel.php', 66)
+ 2 APPPATH/Models/Tendermodel.php(113): App\Models\Tendermodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(2449): App\Models\Tendermodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 02:03:13 --> Undefined array key "order_status"
+in APPPATH/Models/Tendermodel.php on line 66.
+ 1 APPPATH/Models/Tendermodel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_status"', 'APPPATH/Models/Tendermodel.php', 66)
+ 2 APPPATH/Models/Tendermodel.php(113): App\Models\Tendermodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(2449): App\Models\Tendermodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->tender_list()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 04:13:05 --> Undefined variable $dispatch
+in APPPATH/Views/admin/first_dispatch_status_edit.php on line 64.
+ 1 APPPATH/Views/admin/first_dispatch_status_edit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dispatch', 'APPPATH/Views/admin/first_dispatch_status_edit.php', 64)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/first_dispatch_status_edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/first_dispatch_status_edit', [], true)
+ 5 APPPATH/Controllers/Admin.php(2463): view('admin/first_dispatch_status_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->first_dispatch_status_edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 04:44:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 05:36:56 --> Undefined property: stdClass::$customer_name
+in APPPATH/Controllers/Admin.php on line 3442.
+ 1 APPPATH/Controllers/Admin.php(3442): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$customer_name', 'APPPATH/Controllers/Admin.php', 3442)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->compliant_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:50:30 --> Cannot redeclare App\Controllers\Admin::company_update()
+in APPPATH/Controllers/Admin.php on line 3539.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 05:55:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 05:56:15 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 05:57:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Models/Attendancemodel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 05:59:50 --> Class "App\Models\Attendancemodel" not found
+in APPPATH/Controllers/Admin.php on line 1745.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:04:56 --> Undefined array key 3
+in APPPATH/Models/Attendancemodel.php on line 53.
+ 1 APPPATH/Models/Attendancemodel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH/Models/Attendancemodel.php', 53)
+ 2 APPPATH/Models/Attendancemodel.php(69): App\Models\Attendancemodel->_get_datatables_query()
+ 3 APPPATH/Controllers/Admin.php(1748): App\Models\Attendancemodel->get_datatables()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->list_attendance_ajax()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

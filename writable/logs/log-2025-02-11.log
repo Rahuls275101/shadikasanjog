@@ -1,0 +1,130 @@
+ERROR - 2025-02-11 04:21:20 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/newecom/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/newecom/system/Common.php(1135): CodeIgniter\View\View->render('admin/login', Array, true)
+#9 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(32): view('admin/login')
+#10 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->index()
+#11 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', Array)
+#5 /home2/aseelectricalco/public_html/newecom/system/View/View.php(213): include('/home2/aseelect...')
+#6 /home2/aseelectricalco/public_html/newecom/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home2/aseelectricalco/public_html/newecom/system/Common.php(1135): CodeIgniter\View\View->render('admin/login', Array, true)
+#8 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(32): view('admin/login')
+#9 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->index()
+#10 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-02-11 04:21:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `address`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', [...])
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/login.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 8 APPPATH/Controllers/Admin.php(32): view('admin/login')
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->index()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-11 04:21:31 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'aseelect_neweco...', '*5H5n8tLN&XY', 'aseelect_neweco...', 3306, '', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', Array)
+#6 /home2/aseelectricalco/public_html/newecom/system/View/View.php(213): include('/home2/aseelect...')
+#7 /home2/aseelectricalco/public_html/newecom/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home2/aseelectricalco/public_html/newecom/system/Common.php(1135): CodeIgniter\View\View->render('admin/login', Array, true)
+#9 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(32): view('admin/login')
+#10 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->index()
+#11 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+#4 /home2/aseelectricalco/public_html/newecom/app/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', Array)
+#5 /home2/aseelectricalco/public_html/newecom/system/View/View.php(213): include('/home2/aseelect...')
+#6 /home2/aseelectricalco/public_html/newecom/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home2/aseelectricalco/public_html/newecom/system/Common.php(1135): CodeIgniter\View\View->render('admin/login', Array, true)
+#8 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(32): view('admin/login')
+#9 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->index()
+#10 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-02-11 04:21:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `address`
+WHERE `id` = :id:', [...], false)
+ 3 APPPATH/Models/Commanmodel.php(757): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Views/admin/login.php(6): App\Models\Commanmodel->get_single_query('address', [...])
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/login.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/login', [], true)
+ 8 APPPATH/Controllers/Admin.php(32): view('admin/login')
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->index()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 23:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3204.
+ 1 APPPATH/Controllers/Admin.php(3204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3204)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 23:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3204.
+ 1 APPPATH/Controllers/Admin.php(3204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3204)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u1.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 23:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3204.
+ 1 APPPATH/Controllers/Admin.php(3204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3204)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-11 23:19:27 --> Attempt to read property "product_id" on null
+in APPPATH/Controllers/Admin.php on line 3204.
+ 1 APPPATH/Controllers/Admin.php(3204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH/Controllers/Admin.php', 3204)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_product('FCPATH/assets', 'img', 'user', 'u5.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,13 @@
+ERROR - 2024-06-15 02:27:04 --> mysqli_sql_exception: Column 'training_price_secondt' cannot be null in /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/mindbels/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 /home2/aseelectricalco/public_html/mindbels/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 /home2/aseelectricalco/public_html/mindbels/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/mindbels/app/Controllers/Admin.php(1351): App\Models\Commanmodel->insert_query_get_inserid('courses', Array)
+#6 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(925): App\Controllers\Admin->create_courses_process()
+#7 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/mindbels/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/mindbels/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

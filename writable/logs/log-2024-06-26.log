@@ -1,0 +1,254 @@
+CRITICAL - 2024-06-26 00:02:17 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('img', 'banner', '2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:02:17 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('img', 'bg', '14.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:03:30 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('img', 'banner', '2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:03:30 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('img', 'bg', '14.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:05:19 --> Attempt to read property "property_meta_title" on null
+in APPPATH/Controllers/Home.php on line 200.
+ 1 APPPATH/Controllers/Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_meta_title" on null', 'APPPATH/Controllers/Home.php', 200)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->property_details('img', 'banner', '2.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:53:29 --> Cannot use empty array elements in arrays
+in APPPATH/Controllers/Admin.php on line 3192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-26 00:54:09 --> Undefined constant "App\Controllers\message"
+in APPPATH/Controllers/Admin.php on line 3267.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->enquirylist()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 00:54:26 --> Undefined constant "App\Controllers\message"
+in APPPATH/Controllers/Admin.php on line 3267.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->enquirylist()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 05:26:00 --> Undefined variable $usersession
+in APPPATH/Controllers/Dashboard.php on line 287.
+ 1 APPPATH/Controllers/Dashboard.php(287): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usersession', 'APPPATH/Controllers/Dashboard.php', 287)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-26 05:43:59 --> mysqli_sql_exception: Unknown column 'lastname' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Dashboard.php(173): App\Models\Commanmodel->insert_query_get_inserid('admin', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-26 05:45:21 --> mysqli_sql_exception: Unknown column 'lastname' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Dashboard.php(173): App\Models\Commanmodel->insert_query_get_inserid('admin', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-26 05:46:44 --> mysqli_sql_exception: Unknown column 'lastname' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Dashboard.php(173): App\Models\Commanmodel->insert_query_get_inserid('admin', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-26 05:46:48 --> mysqli_sql_exception: Unknown column 'lastname' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Dashboard.php(173): App\Models\Commanmodel->insert_query_get_inserid('admin', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-26 05:46:55 --> mysqli_sql_exception: Unknown column 'lastname' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(53): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Dashboard.php(173): App\Models\Commanmodel->insert_query_get_inserid('admin', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 05:47:28 --> Class "App\Controllers\Api" not found
+in APPPATH/Controllers/Dashboard.php on line 181.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 05:47:52 --> Undefined variable $name
+in APPPATH/Controllers/Dashboard.php on line 222.
+ 1 APPPATH/Controllers/Dashboard.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH/Controllers/Dashboard.php', 222)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->proceed_to_payment('8')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 06:22:57 --> Undefined variable $commanmodel
+in APPPATH/Views/frontend/dashboard/index.php on line 147.
+ 1 APPPATH/Views/frontend/dashboard/index.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $commanmodel', 'APPPATH/Views/frontend/dashboard/index.php', 147)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/dashboard/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('frontend/dashboard/index', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(36): view('frontend/dashboard/index')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 06:39:04 --> Attempt to read property "property_title" on null
+in APPPATH/Controllers/Admin.php on line 3401.
+ 1 APPPATH/Controllers/Admin.php(3401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_title" on null', 'APPPATH/Controllers/Admin.php', 3401)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 06:39:12 --> Attempt to read property "property_title" on null
+in APPPATH/Controllers/Admin.php on line 3401.
+ 1 APPPATH/Controllers/Admin.php(3401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_title" on null', 'APPPATH/Controllers/Admin.php', 3401)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 06:42:05 --> Attempt to read property "property_title" on null
+in APPPATH/Controllers/Admin.php on line 3402.
+ 1 APPPATH/Controllers/Admin.php(3402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "property_title" on null', 'APPPATH/Controllers/Admin.php', 3402)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->orderlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 06:59:40 --> Undefined property: stdClass::$date_of_birth
+in APPPATH/Controllers/Admin.php on line 1011.
+ 1 APPPATH/Controllers/Admin.php(1011): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_of_birth', 'APPPATH/Controllers/Admin.php', 1011)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->em_userlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 07:01:51 --> Undefined property: stdClass::$date_of_birth
+in APPPATH/Controllers/Admin.php on line 1011.
+ 1 APPPATH/Controllers/Admin.php(1011): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$date_of_birth', 'APPPATH/Controllers/Admin.php', 1011)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->em_userlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 07:06:45 --> Undefined property: stdClass::$Phone
+in APPPATH/Controllers/Admin.php on line 1011.
+ 1 APPPATH/Controllers/Admin.php(1011): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Phone', 'APPPATH/Controllers/Admin.php', 1011)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->em_userlist()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-26 07:36:32 --> mysqli_sql_exception: Table 'aseelect_rent-house.employee' doesn't exist in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(230): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1231): App\Models\Commanmodel->all_multiple_query_order_by('employee', Array, 'employee_name', 'ASC')
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->edit_user('11')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 07:36:32 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 232.
+ 1 APPPATH/Controllers/Admin.php(1231): App\Models\Commanmodel->all_multiple_query_order_by('employee', [...], 'employee_name', 'ASC')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user('11')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-26 07:45:50 --> mysqli_sql_exception: Table 'aseelect_rent-house.employee' doesn't exist in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1284): App\Models\Commanmodel->get_single_query('employee', Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('11')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 07:45:50 --> Call to a member function getRow() on bool
+in APPPATH/Models/Commanmodel.php on line 490.
+ 1 APPPATH/Controllers/Admin.php(1284): App\Models\Commanmodel->get_single_query('employee', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('11')
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-26 07:47:37 --> mysqli_sql_exception: Unknown column 'user_status_color' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1308): App\Models\Commanmodel->update_query('admin', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('11')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-06-26 07:47:44 --> mysqli_sql_exception: Unknown column 'user_status_color' in 'field list' in /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/rent-house/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 /home2/aseelectricalco/public_html/rent-house/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 /home2/aseelectricalco/public_html/rent-house/app/Models/Commanmodel.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home2/aseelectricalco/public_html/rent-house/app/Controllers/Admin.php(1308): App\Models\Commanmodel->update_query('admin', Array, Array)
+#6 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(925): App\Controllers\Admin->edit_user_process('11')
+#7 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/rent-house/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/rent-house/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

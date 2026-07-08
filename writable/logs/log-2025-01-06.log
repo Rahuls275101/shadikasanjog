@@ -1,0 +1,42 @@
+CRITICAL - 2025-01-06 03:20:42 --> Undefined variable $table_column
+in APPPATH/Views/admin/category.php on line 498.
+ 1 APPPATH/Views/admin/category.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_column', 'APPPATH/Views/admin/category.php', 498)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/category.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH/Controllers/Admin.php(793): view('admin/category')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-06 04:10:03 --> Undefined variable $id
+in APPPATH/Views/admin/category.php on line 53.
+ 1 APPPATH/Views/admin/category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH/Views/admin/category.php', 53)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/category.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH/Controllers/Admin.php(807): view('admin/category', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-06 04:39:17 --> mysqli_sql_exception: Unknown column 'property_id' in 'order clause' in /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home2/aseelectricalco/public_html/newecom/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/aseelectricalco/public_html/newecom/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/aseelectricalco/public_html/newecom/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/aseelectricalco/public_html/newecom/app/Models/Commanmodel.php(866): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/aseelectricalco/public_html/newecom/app/Controllers/Admin.php(871): App\Models\Commanmodel->getDataFromTable('category', Array, Array, '10', '0')
+#6 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(925): App\Controllers\Admin->category_list()
+#7 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home2/aseelectricalco/public_html/newecom/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/aseelectricalco/public_html/newecom/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-06 04:39:17 --> Call to a member function getResult() on bool
+in APPPATH/Models/Commanmodel.php on line 866.
+ 1 APPPATH/Controllers/Admin.php(871): App\Models\Commanmodel->getDataFromTable('category', [], [...], '10', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->category_list()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,22 @@
+CRITICAL - 2024-04-10 01:09:55 --> Undefined variable $franchise
+in APPPATH/Views/admin/edit_questions.php on line 76.
+ 1 APPPATH/Views/admin/edit_questions.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $franchise', 'APPPATH/Views/admin/edit_questions.php', 76)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_questions.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_questions', [], true)
+ 5 APPPATH/Controllers/Admin.php(775): view('admin/edit_questions', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_questions('3', '2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-10 01:10:46 --> Undefined variable $questions_id
+in APPPATH/Views/admin/edit_questions.php on line 55.
+ 1 APPPATH/Views/admin/edit_questions.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $questions_id', 'APPPATH/Views/admin/edit_questions.php', 55)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_questions.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/edit_questions', [], true)
+ 5 APPPATH/Controllers/Admin.php(775): view('admin/edit_questions', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Admin->edit_questions('3', '2')
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,6 @@
+CRITICAL - 2023-08-20 23:58:39 --> Cannot redeclare App\Controllers\Admin::vendor_creation_create()
+in APPPATH/Controllers/Admin.php on line 2602.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-20 23:59:07 --> Cannot redeclare App\Controllers\Admin::vendor_creation_create()
+in APPPATH/Controllers/Admin.php on line 2602.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
